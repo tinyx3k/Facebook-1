@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 ###--------[AUTHOR ]--------###
-Author = 'FerlyXD'
-Github = 'github.com/Shishigami-X'
-Facebook = 'フェリー シシガミ'
-version = 'next blade v.2'
+Author   : 'FerlyXD'
+Github   : 'github.com/Shishigami-X'
+Facebook : 'フェリー シシガミ'
+Version  : 'Next Blade v.2'
 
 
 #------------[ WARNA-COLOR ]--------------#
