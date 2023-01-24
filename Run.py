@@ -79,7 +79,10 @@ def logo(n):
 {K}|  |  ||     ||    -||    -|  {K}|   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
 {M}|____/ |__|__||__|__||__|__|  {M}|__|   |__|__||_____||_____||_____||_____||_____||__|__|
    {M}•{K}•{H}• {P}MULTI BRUTE FORCE FACEBOOK {H}•{K}•{M}•
-   {M}•{K}•{H}• {P}Author : Ferly Shishigami {H}•{K}•{M}•""")
+   {M}•{K}•{H}• {P}Author   : Ferly Shishigami {H}•{K}•{M}•
+   {M}•{K}•{H}• {P}Facebook : フェリー シシガミ {H}•{K}•{M}•
+   {M}•{K}•{H}• {P}WhatsApp : +6285797818026 {H}•{K}•{M}•
+   {M}•{K}•{H}• {P}Github   : Shishigami-X {H}•{K}•{M}•""")
 
 def logo2():
 	return str(f"""
@@ -87,9 +90,7 @@ def logo2():
 {U}|    \ |  _  || __  ||  |  |  {U}|   __||  _  ||     ||   __|| __  ||     ||     ||  |  |
 {K}|  |  ||     ||    -||    -|  {K}|   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
 {M}|____/ |__|__||__|__||__|__|  {M}|__|   |__|__||_____||_____||_____||_____||_____||__|__|
-   {M}>{K}>{H}> {P}CHECKING FOR LOGIN {H}>{K}>{M}>
-   {M}•{K}•{H}• {P}MULTI BRUTE FORCE FACEBOOK {H}•{K}•{M}•
-   {M}•{K}•{H}• {P}Author : Ferly Shishigami {H}•{K}•{M}•""")
+   {M}>{K}>{H}> {P}CHECKING FOR LOGIN {H}>{K}>{M}>""")
 
 ###---[ TANGGAL ]---###
 sasi = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
