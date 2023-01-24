@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-###---[ INFO AUTHOR ]---###
-#----[ jangan di oprek, sayangi data hpmu ]-----#
+###--------[AUTHOR ]--------###
 Author = 'FerlyXD'
 Github = 'github.com/Shishigami-X'
 Facebook = 'フェリー シシガミ'
