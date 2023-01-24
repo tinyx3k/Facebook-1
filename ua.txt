@@ -1017,3 +1017,5 @@ Mozilla/5.0 (Linux; Android 12; Redmi Note 11) AppleWebKit/537.36 (KHTML, like G
 Mozilla/5.0 (Linux; Android 7; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.7083.96 Mobile Safari/537.36
 Mozilla/5.0 (Linux; Android 12; Redmi Note 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.9829.98 Mobile Safari/537.36
 Mozilla/5.0 (Linux; Android 9; Nokia C2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.66 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 5; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.1130.59 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 11; Redmi Note 12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3779.85 Mobile Safari/537.36
