@@ -135,7 +135,7 @@ def back():
 try:
 	clear_layar()
 	print(logo2())
-	print(f'\r\n [!] sedang dump proxy dan create useragent')
+	print(f'\r\n [!] Sedang Dump Proxy Dan Create Useragent')
 	try:os.remove('.proxy.txt')
 	except:pass
 #	A = ''
