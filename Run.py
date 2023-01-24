@@ -87,7 +87,9 @@ def logo2():
 {U}|    \ |  _  || __  ||  |  |  {U}|   __||  _  ||     ||   __|| __  ||     ||     ||  |  |
 {K}|  |  ||     ||    -||    -|  {K}|   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
 {M}|____/ |__|__||__|__||__|__|  {M}|__|   |__|__||_____||_____||_____||_____||_____||__|__|
-{M}>{K}>{H}> {P}CHECKING FOR LOGIN {H}>{K}>{M}>""")
+   {M}>{K}>{H}> {P}CHECKING FOR LOGIN {H}>{K}>{M}>
+   {M}•{K}•{H}• {P}MULTI BRUTE FORCE FACEBOOK {H}•{K}•{M}•
+   {M}•{K}•{H}• {P}Author : Ferly Shishigami {H}•{K}•{M}•""")
 
 ###---[ TANGGAL ]---###
 sasi = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
