@@ -257,6 +257,7 @@ def login():
 		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok) ###--------[ JANGAN GANTI ID NYA ]--------###
 		open('.cookie.txt','w').write(cookie)
 		open('.token.txt','w').write(token)
+	try:
                 link = x.get("https://business.facebook.com/business_locations", cookies = {'cookie':cookies})
                 search = re.search("(EAAG\w+)", link.text).group(1)
                 if 'EAAG' in search:
