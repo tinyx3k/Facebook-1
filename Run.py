@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 ###---------[Recode Aja Tapi Izin Dulu Sama Authornya]----------###
-
 ###----------------[NOTE]----------------###
 'Chat Aja FB Author Nya Klo Gk Bisa Komen Aja Di Post FB Nya..."Bang PM"'
 'Klo Mau Recode Izin Dulu Tapi Jgn Ganti Bot Author Ngabs'
