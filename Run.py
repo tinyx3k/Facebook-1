@@ -9,7 +9,7 @@
 ###--------[AUTHOR ]--------###
 Author   : 'FerlyXD'
 Github   : 'github.com/Shishigami-X'
-Facebook : 'フェリー シシガミ'
+Facebook : 'm.facebook.com/Ferly.Shishigami.XD'
 Version  : 'Next Blade v.2'
 	
 Author   = 'Ferly Shishigami X'
@@ -268,12 +268,12 @@ def remove():
 def menu(n,t,c):
 	clear_layar()
 	print(logo(n)+f'\n')
-	print(f" {P}[{hh}01{P}] CRACK PUBLIK     [{hh}07{P}] CRACK SEARCH")
-	print(f" [{hh}02{P}] CRACK MASSAL     [{hh}08{P}] CRACK FROM FILE")
-	print(f" [{hh}03{P}] CRACK FOLLOW     [{hh}09{P}] CHECK RESSULT ACCOUNT")
-	print(f" [{hh}04{P}] CRACK COMENT     [{hh}10{P}] CHECK ACCOUNT NON-ACTIVE")
-	print(f" [{hh}05{P}] CRACK GROUP      [{hh}11{P}] CHECK OPTION ACCOUNT")
-	print(f" [{hh}06{P}] CRACK EMAIL      [{hh}12{P}] LOGOUT ({M}COOKIE{P})")
+	print(f" {P}[{hh}01{P}] BRUTE FORCE PUBLIK     [{hh}07{P}] BRUTE FORCE SEARCH")
+	print(f" [{hh}02{P}] BRUTE FORCE MASSAL     [{hh}08{P}] BRUTE FORCE FILE")
+	print(f" [{hh}03{P}] BRUTE FORCE FOLLOW     [{hh}09{P}] CHECK RESSULT ACCOUNT")
+	print(f" [{hh}04{P}] BRUTE FORCE COMENT     [{hh}10{P}] CHECK ACCOUNT NON-ACTIVE")
+	print(f" [{hh}05{P}] BRUTE FORCE GROUP      [{hh}11{P}] CHECK OPTION ACCOUNT")
+	print(f" [{hh}06{P}] BRUTE FORCE EMAIL      [{hh}12{P}] LOGOUT ({M}COOKIE{P})")
 	ask = input(f' [{hh}>>{P}] CHOOSE : ')
 	print(' ─────────────────────────────')
 	if ask in ['1','01']:crack_publik(t,c)
