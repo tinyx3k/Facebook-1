@@ -430,7 +430,7 @@ def clon_email():
 	nama = input(' Target : ')
 	if ',' in str(nama):
 		exit(f' [{M}<{P}] Masukan 1 Nama Saja')
-	doma = input(' Masukan Domain...Contoh[@gmail.com : ')
+	doma = input(' Masukan Domain...Contoh [@gmail.com] : ')
 	if '@' not in str(doma) or '.com' not in str(doma):
 		exit(f' [{M}<{P}] Masukan Domain Yang Benar')
 	jumlah = input(' Total  : ')
