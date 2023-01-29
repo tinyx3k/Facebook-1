@@ -5,15 +5,17 @@
 ###----------------[NOTE]----------------###
 'Chat Aja FB Author Nya Klo Gk Bisa Komen Aja Di Post FB Nya..."Bang PM"'
 'Klo Mau Recode Izin Dulu Tapi Jgn Ganti Bot Author Ngabs'
+'Mikir Kontol Pas Masih Jadi SC Huawei7 Nih SC Hasil Nya Kek Muka Lu Yaitu Kek Koontol..Gw Tambahin UA Yang Gacor Sama Proxy Jadi Enak Lagi..'
+'Lu Recode Bilang Lah Dulu Koontol'
 
 ###--------[AUTHOR ]--------###
-Author   : 'FerlyXD'
+Author   : 'Afriliyan Ferly Shishigami X'
 Github   : 'github.com/Shishigami-X'
-Facebook : 'm.facebook.com/Ferly.Shishigami.XD'
+Facebook : 'https://www.facebook.com/AfriliyanFerly.Shishigami.X'
 Version  : 'Next Blade v.2'
 	
 Author   = 'Ferly Shishigami X'
-Facebook = 'フェリーシシガミ (https://m.facebook.com/profile.php?id=100056190665450)'
+Facebook = 'Afriliyan Ferly Shishigami X (https://m.facebook.com/profile.php?id=100056190665450)'
 WhatsApp = '0857 9781 8026'
 #------------[ WARNA-COLOR ]--------------#
 P = '\x1b[1;97m'
