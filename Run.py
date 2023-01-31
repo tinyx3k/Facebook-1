@@ -9,7 +9,7 @@ Facebook = 'フェリー シシガミ'
 Version = 'Next Blade V.2'
 
 Author   = 'Ferly Shishigami X'
-fFcebook = 'フェリーシシガミ (https://m.facebook.com/profile.php?id=100056190665450)'
+Facebook = 'フェリーシシガミ (https://m.facebook.com/profile.php?id=100056190665450)'
 Watsapp = '0857 9781 8026'
 
 
