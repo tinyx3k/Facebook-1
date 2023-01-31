@@ -84,10 +84,10 @@ def logo(n):
 {K} |  |  ||     ||    -||    -|  {K} |   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
 {P} |____/ |__|__||__|__||__|__|  {P} |__|   |__|__||_____||_____||_____||_____||_____||__|__|
 			{M}•{K}•{H}• {P}MULTI BRUTE FORCE FACEBOOK {H}•{K}•{M}•
-                               {M}•{K}•{H}• {P} By Author   : Ferly Shishigami         
-			       {M}•{K}•{H}• {P}My Github   : github.com/Shishigami-X  
-			       {M}•{K}•{H}• {P}My Hp/Wa    : +6285797818026           
-			       {M}•{K}•{H}• {P}My Facebook : フェリー シシガ""")                
+                        {M}•{K}•{H}• {P} By Author   : Ferly Shishigami         
+                        {M}•{K}•{H}• {P}My Github   : github.com/Shishigami-X  
+			{M}•{K}•{H}• {P}My Hp/Wa    : +6285797818026           
+			{M}•{K}•{H}• {P}My Facebook : フェリー シシガ""")                
 def logo2():
 	return str(f"""
 {M}  ____   _____  _____  _____   {M}  _____  _____  _____  _____  _____  _____  _____  _____
