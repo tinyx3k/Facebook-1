@@ -139,7 +139,7 @@ def back():
 try:
 	clear_layar()
 	print(logo2())
-	print(f'\r\n [!] sedang dump proxy dan create useragent')
+	print(f'\r\n [!] Sedang Dump Proxy Dan Create Useragent')
 	try:os.remove('.proxy.txt')
 	except:pass
 #	A = ''
@@ -152,7 +152,7 @@ try:
 	uno = ses.get("https://api.proxyscrape.com/?request=displayproxies&protocol=socks5&timeout=10000&country=all&ssl=all&anonymity=all").text
 	open('.proxy.txt','w').write(uno)
 except requests.exceptions.ConnectionError:
-	sys.exit(f" [{M}>{P}] tidak ada koneksi internet")
+	sys.exit(f" [{M}>{P}] Tidak Ada Koneksi Internet")
 for xd in range(10000):
 	a='Mozilla/5.0; Profile/MIDP-2.1'
 	b=random.randrange(1, 9)
@@ -210,8 +210,8 @@ for x in range(999):
 	else:redmi.append(F)
 try:abcd = open('.proxy.txt','r').read().splitlines()
 except:sys.exit(f" [{M}>{P}] gagal dump proxy")
-print(' total new proxy : '+str(len(abcd)))
-print(' total useragent : '+str(len(redmi)))
+print(' Total New Proxy : '+str(len(abcd)))
+print(' Total Useragent : '+str(len(redmi)))
 sleep(1)
 	
 ###---[ CEK COOKIES ]---###
@@ -423,14 +423,14 @@ def clon_email():
 	bas = ['andi','dwi','muhammad','nur','dewi','tri','dian','sri','putri','eka','sari','aditya','basuki','budi','joni','toni','cahya','riski','farhan','aden','joko']
 	blk = ['99','official','gaming','utama','123','1234','12345','123456','cakep']
 	global ok , cp
-	print(f' [{hh}>{P}] dump dari email, max 1000 id')
-	nama = input(' target : ')
+	print(f' [{hh}>{P}] Dump Dari Email, Max 2000 ID')
+	nama = input(' Masukan Nama : ')
 	if ',' in str(nama):
-		exit(f' [{M}<{P}] masukan 1 nama saja')
-	doma = input(' domain : ')
+		exit(f' [{M}<{P}] Masukan 1 Nama Saja')
+	doma = input(' Masukan Domain Contoh @gmail.com : ')
 	if '@' not in str(doma) or '.com' not in str(doma):
-		exit(f' [{M}<{P}] masukan domain yang benar')
-	jumlah = input(' total  : ')
+		exit(f' [{M}<{P}] Masukan Domain Yang Benar')
+	jumlah = input(' Total  : ')
 	for xyz in range(int(jumlah)):
 		A = nama
 		B = [f'{str(rc(bas))}',f'{str(rr(0,31))}',f'{str(rc(blk))}'f'{str(rc(bas))}{str(rr(0,31))}',f'{xyz}',f'{str(rc(blk))}{str(rr(0,31))}',f'{str(rc(bas))}{str(rc(blk))}']
@@ -439,7 +439,7 @@ def clon_email():
 		if D in dump:pass
 		else:dump.append(D+'|'+nama)
 		if len(dump)==2000:atur_atur()
-		print('\r sedang dump %s id'%(len(dump)),end='')
+		print('\r Sedang Dump %s ID'%(len(dump)),end='')
 		sys.stdout.flush()
 	atur_atur()	
 
