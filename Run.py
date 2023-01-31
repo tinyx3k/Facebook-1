@@ -84,7 +84,7 @@ def logo(n):
 {K} |  |  ||     ||    -||    -|  {K} |   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
 {P} |____/ |__|__||__|__||__|__|  {P} |__|   |__|__||_____||_____||_____||_____||_____||__|__|
      {M}•{K}•{H}• {P}MULTI BRUTE FORCE FACEBOOK {H}•{K}•{M}•
-     {M}•{K}•{H}• {P} By Author   : Ferly Shishigami {H}•{K}•{M}•       
+     {M}•{K}•{H}• {P}By Author   : Ferly Shishigami {H}•{K}•{M}•       
      {M}•{K}•{H}• {P}My Github   : github.com/Shishigami-X {H}•{K}•{M}•
      {M}•{K}•{H}• {P}My Hp/Wa    : +6285797818026 {H}•{K}•{M}•          
      {M}•{K}•{H}• {P}My Facebook : フェリー シシガ {H}•{K}•{M}•""")                
