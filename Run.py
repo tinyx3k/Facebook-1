@@ -1,3 +1,6 @@
+#Encrypt By Ferly Shishigami-X
+#https://github.com/Shishigami-X
+
 #pip install pycryptodome
 import random ,base64,codecs,zlib;pyobfuscate=""
 
