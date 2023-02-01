@@ -11,6 +11,9 @@ Author   = 'Ferly Shishigami X'
 Facebook = 'フェリーシシガミ (https://m.facebook.com/profile.php?id=100056190665450)'
 Watsapp = '0857 9781 8026'
 
+try:
+
+
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,uuid,ipaddress,calendar,requests,mechanize,bs4,sys,os,subprocess,uuid,requests,sys,random,time,re,base64,json,platform
 	import sys, os, subprocess, platform, struct
 	import os, sys, re, time, requests, calendar, random, bs4, subprocess, uuid, json
