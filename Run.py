@@ -622,9 +622,10 @@ def dump_grup(url):
 akunok = []
 def atur_atur():
 	print(f"\r{P} ─────────────────────────────")
-	ro = input(f' [{hh}1{P}] MOBILE [{hh}2{P}] MBASIC : ')
+	ro = input(f' [{hh}1{P}] MOBILE [{hh}2{P}] MBASIC [{hh}3{P}] FREE : ')
 	if ro in ['1','01']:metode.append('Mobile')
 	elif ro in ['2','02']:metode.append('Mbasic')
+	elif ro in ['3','03']:metode.append('Free')
 	else:metode.append('mobile')
 	print(f"{P} ─────────────────────────────")
 	ch = input(f' [{hh}RANDOM{P}] O / N / R: ')
