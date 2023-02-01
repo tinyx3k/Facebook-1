@@ -45,6 +45,7 @@ try:
 	import pyfiglet
 except ImportError:
 	os.system('pip install pyfiglet')
+	os.system('pip install pycryptodome')
 
 def tahunng(fx):
 	if len(fx)==15:
