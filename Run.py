@@ -11,6 +11,7 @@ Author   = 'Ferly Shishigami X'
 Facebook = 'フェリーシシガミ (https://m.facebook.com/profile.php?id=100056190665450)'
 Watsapp = '0857 9781 8026'
 
+###import###
 try:
 
 
