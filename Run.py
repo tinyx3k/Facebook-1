@@ -32,6 +32,29 @@ kk = '\033[33m' # KUNING -
 b = '\33[1;96m' # BIRU -
 p = '\x1b[0;34m' # BIRU +
 
+#""" WARNA UNTUK PRINT"""
+q='\x1b[0m'	 # WARNA MATI
+p = '\x1b[0;97m' # PUTIH
+m = '\x1b[0;91m' # MERAH
+i = '\x1b[0;92m' # HIJAU
+k = '\x1b[0;93m' # KUNING
+k = '\033[0;93m' # KUNING
+b = '\x1b[0;94m' # BIRU
+u = '\x1b[0;95m' # UNGU
+c = '\033[0;96m' # BIRU MUDA
+h = "\x1b[0;90m"     # Hitam
+j = "\x1b[38;5;208m" # Jingga
+a = "\x1b[38;5;248m" # Abu-Abu
+o='\033[38;2;255;127;0;1m' #ORANGE
+h2="\033[40m"
+b2="\033[44m"
+c2="\033[46m"
+i2="\033[42m"
+u2="\033[45m"
+m2="\033[41m"
+p2="\033[47m"
+k2="\033[43m"
+
 ###---[ IMPORT MODULE ]---###
 import bs4, re, time, requests, datetime, os, sys, random, platform
 from concurrent.futures import ThreadPoolExecutor as tred
@@ -77,18 +100,19 @@ def tahunng(fx):
 ###---[ANGGAP INI LOGO ]---###
 def logo(n):
 	return str(f"""
-{M} ____   _____  _____  _____    {M}_____  _____  _____  _____  _____  _____  _____  _____
+{M}         ____   _____  _____  _____    {M}_____  _____  _____  _____  _____  _____  _____  _____
 {N} |    \ |  _  || __  ||  |  |  {N}|   __||  _  ||     ||   __|| __  ||     ||     ||  |  |
 {U} |  |  ||     ||    -||    -|  {U}|   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
 {K} |____/ |__|__||__|__||__|__|  {K}|__|   |__|__||_____||_____||_____||_____||_____||__|__
      {M}•{K}•{H}• {P}MULTI BRUTE FORCE FACEBOOK {H}•{K}•{M}•
      {M}•{K}•{H}• {P}Author   : Ferly Shishigami {H}•{K}•{M}•       
      {M}•{K}•{H}• {P}Github   : github.com/Shishigami-X {H}•{K}•{M}•   
-     {M}•{K}•{H}• {P}Facebook : Afriliyan Ferly Shishigami X {H}•{K}•{M}•""")  
+     {M}•{K}•{H}• {P}Facebook : Afriliyan Ferly Shishigami X {H}•{K}•{M}•"""
+              prints(Panel(my_logo,width=90,padding=0,style=xtc["warna"]["rich"],title=f"{H}•{U}•{K}• {M}XTC-CODETEAM {M}•{U}•{K}•"))
      
 def logo2():
 	return str(f"""
-{M}  ____   _____  _____  _____   {M}  _____  _____  _____  _____  _____  _____  _____  _____
+{M}           ____   _____  _____  _____   {M}  _____  _____  _____  _____  _____  _____  _____  _____
 {N}  |    \ |  _  || __  ||  |  |  {N} |   __||  _  ||     ||   __|| __  ||     ||     ||  |  |
 {U}  |  |  ||     ||    -||    -|  {U} |   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
 {K}  |____/ |__|__||__|__||__|__|  {K} |__|   |__|__||_____||_____||_____||_____||_____||__|__|
