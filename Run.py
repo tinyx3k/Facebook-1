@@ -1,5 +1,11 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+import requests, time, os, re, json, random
+from rich.panel import Panel
+from rich import print
+from concurrent.futures import ThreadPoolExecutor
+from rich.tree import Tree
+from rich.console import Console
 
 ###---[ Author ]---###
 Author = 'Ferly Shishigami X'
@@ -11,69 +17,7 @@ Author   = 'Ferly Shishigami X'
 Facebook = 'フェリーシシガミ (https://m.facebook.com/profile.php?id=100056190665450)'
 Watsapp = '0857 9781 8026'
 
-###import###
-try:
 
-
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,uuid,ipaddress,calendar,requests,mechanize,bs4,sys,os,subprocess,uuid,requests,sys,random,time,re,base64,json,platform
-	import sys, os, subprocess, platform, struct
-	import os, sys, re, time, requests, calendar, random, bs4, subprocess, uuid, json
-	import requests as req
-	import time,random,json
-	import inquirer,os,sys,re
-	from inquirer import errors
-	from inquirer.themes import GreenPassion
-	from rich.table import Table as me
-	from rich.console import Console as sol
-	from rich.console import Group as gp
-	from rich.panel import Panel as nel
-	from rich import print as cetak
-	from rich.markdown import Markdown as mark
-	from rich.columns import Columns as col
-	from rich import print as iprint
-	from rich.panel import Panel
-	from rich.tree import Tree
-	from rich import print as rprint
-	from rich.text import Text
-	from rich.progress import track
-	from rich import print as prints
-	from rich.console import Console
-	from rich.table import Table
-	from rich.columns import Columns
-	from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn,TimeElapsedColumn
-	from rich.progress import Task
-	from rich.progress import DownloadColumn,SpinnerColumn,TransferSpeedColumn
-	from rich import filesize, get_console
-	from rich.console import Group
-	from rich.markdown import Markdown
-	from rich.panel import Panel
-	from rich.syntax import Syntax
-	from rich.table import Table
-	from rich.box import DOUBLE, ROUNDED
-	from rich.padding import Padding
-	from rich.box import ROUNDED, Box
-	from requests.exceptions import ConnectionError
-	from bs4 import BeautifulSoup
-	from bs4 import BeautifulSoup as parser
-	from bs4 import BeautifulSoup as par
-	from random import choice as pilih
-	from concurrent.futures import ThreadPoolExecutor as __Kiky__
-	from concurrent.futures import ThreadPoolExecutor
-	from requests.exceptions import ConnectionError
-	from datetime import datetime
-	from urllib.parse import quote
-	from datetime import date
-	from urllib import request
-	from pprint import pprint
-	from pystyle import *
-	from blessed import Terminal
-	from datetime import datetime
-	from requests import ConnectionError
-	from threading import Event
-	from fake_useragent import UserAgent
-	from inquirer.themes import Default
-	from concurrent.futures import ThreadPoolExecutor
-	console = Console()
 #------------[ WARNA-COLOR ]--------------#
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -170,8 +114,9 @@ def logo(n):
      {M}•{K}•{H}• {P}MULTI BRUTE FORCE FACEBOOK {H}•{K}•{M}•
      {M}•{K}•{H}• {P}Author   : Ferly Shishigami {H}•{K}•{M}•       
      {M}•{K}•{H}• {P}Github   : github.com/Shishigami-X {H}•{K}•{M}•   
-     {M}•{K}•{H}• {P}Facebook : Afriliyan Ferly Shishigami X {H}•{K}•{M}•"""
-              prints(Panel(my_logo,width=90,padding=0,style=xtc["warna"]["rich"],title=f"{H}•{U}•{K}• {M}XTC-CODETEAM {M}•{U}•{K}•"))
+     {M}•{K}•{H}• {P}Facebook : Afriliyan Ferly Shishigami X {H}•{K}•{M}•
+     [bold blue]        \\|[bold green]Multi Brute Force Facebook[bold blue]|/""", title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] Version 8.0 [bold green]<[bold yellow]<[bold red]<"))
+ 
      
 def logo2():
 	return str(f"""
