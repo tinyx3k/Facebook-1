@@ -11,31 +11,26 @@ Author   = 'Ferly Shishigami X'
 Facebook = 'フェリーシシガミ (https://m.facebook.com/profile.php?id=100056190665450)'
 Watsapp = '0857 9781 8026'
 
-#"""WARNA RICH"""
-H = "#000000" # Hitam
-M = "#FF0000" # Merah
-I = "#00FF00" # Hijau
-K = "#FFFF00" # Kuning
-B = "#00C8FF" # Biru
-U = "#AF00FF" # Ungu
-P = "#FF00FF" # Pink
-C = "#00FFFF" # Biru Muda
-Q = "#FFFFFF" # Putih
-J = "#FF8F00" # Jingga
-A = "#AAAAAA" # Abu-Ab
-O = "#FFA500" # OREN
-HH = "[#000000]" # Hitam
-MM = "[#FF0000]" # Merah
-II = "[#00FF00]" # Hijau
-KK = "[#FFFF00]" # Kuning
-BB = "[#00C8FF]" # Biru
-UU = "[#AF00FF]" # Ungu
-PP = "[#FF00FF]" # Pink
-CC = "[#00FFFF]" # Biru Muda
-QQ = "[#FFFFFF]" # Putih
-JJ = "[#FF8F00]" # Jingga
-AA = "[#AAAAAA]" # Abu-Abu
-OO = "[#FFA500]" # OREN
+#------------[ WARNA-COLOR ]--------------#
+P = '\x1b[1;97m'
+M = '\x1b[1;91m'
+H = '\x1b[1;92m'
+K = '\x1b[1;93m'
+B = '\x1b[1;94m'
+U = '\x1b[1;95m' 
+O = '\x1b[1;96m'
+N = '\x1b[0m'    
+Z = "\033[1;30m"
+sir = '\033[41m\x1b[1;97m'
+x = '\33[m' # DEFAULT
+m = '\x1b[1;91m' #RED +
+k = '\033[93m' # KUNING +
+h = '\x1b[1;92m' # HIJAU +
+hh = '\033[32m' # HIJAU -
+u = '\033[95m' # UNGU
+kk = '\033[33m' # KUNING -
+b = '\33[1;96m' # BIRU -
+p = '\x1b[0;34m' # BIRU +
 
 ###---[ IMPORT MODULE ]---###
 import bs4, re, time, requests, datetime, os, sys, random, platform
@@ -84,7 +79,7 @@ def logo(n):
 	return str(f"""
 	{M} ____   _____  _____  _____    {M}_____  _____  _____  _____  _____  _____  _____  _____
 {U} |    \ |  _  || __  ||  |  |  {U}|   __||  _  ||     ||   __|| __  ||     ||     ||  |  |
-{JJ}|  |  ||     ||    -||    -|  {K}|   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
+{H} |  |  ||     ||    -||    -|  {H}|   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
 {B} |____/ |__|__||__|__||__|__|  {B}|__|   |__|__||_____||_____||_____||_____||_____||__|__
      {M}•{K}•{H}• {P}MULTI BRUTE FORCE FACEBOOK {H}•{K}•{M}•
      {M}•{K}•{H}• {P}Author   : Ferly Shishigami {H}•{K}•{M}•       
@@ -95,8 +90,8 @@ def logo2():
 	return str(f"""
          {M}  ____   _____  _____  _____   {M}  _____  _____  _____  _____  _____  _____  _____  _____
 {U}  |    \ |  _  || __  ||  |  |  {U} |   __||  _  ||     ||   __|| __  ||     ||     ||  |  |
-{QQ} |  |  ||     ||    -||    -|  {K} |   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
-{B}  |____/ |__|__||__|__||__|__|  {B} |__|   |__|__||_____||_____||_____||_____||_____||__|__|
+{U}  |  |  ||     ||    -||    -|  {U} |   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
+{H}  |____/ |__|__||__|__||__|__|  {H} |__|   |__|__||_____||_____||_____||_____||_____||__|__|
 {M}>{K}>{H}> {P}CHECKING FOR LOGIN {H}>{K}>{M}>""")
 
 ###---[ TANGGAL ]---###
