@@ -111,12 +111,10 @@ def logo(n):
 {N} |    \ |  _  || __  ||  |  |  {N}|   __||  _  ||     ||   __|| __  ||     ||     ||  |  |
 {U} |  |  ||     ||    -||    -|  {U}|   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
 {K} |____/ |__|__||__|__||__|__|  {K}|__|   |__|__||_____||_____||_____||_____||_____||__|__
-     {M}•{K}•{H}• {P}MULTI BRUTE FORCE FACEBOOK {H}•{K}•{M}•
-     {M}•{K}•{H}• {P}Author   : Ferly Shishigami {H}•{K}•{M}•       
-     {M}•{K}•{H}• {P}Github   : github.com/Shishigami-X {H}•{K}•{M}•   
-     {M}•{K}•{H}• {P}Facebook : Afriliyan Ferly Shishigami X {H}•{K}•{M}•
-     [bold blue]        \\|[bold green]Multi Brute Force Facebook[bold blue]|/""", title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] Version 8.0 [bold green]<[bold yellow]<[bold red]<")
- 
+     {M}•{K}•{H}• {P}MULTI BRUTE FORCE FACEBOOK {H}•{K}•{M}•           |
+     {M}•{K}•{H}• {P}Author   : Ferly Shishigami {H}•{K}•{M}•          |
+     {M}•{K}•{H}• {P}Github   : github.com/Shishigami-X {H}•{K}•{M}•   |
+     {M}•{K}•{H}• {P}Facebook : Afriliyan Ferly Shishigami X {H}•{K}•{M}•""")
      
 def logo2():
 	return str(f"""
