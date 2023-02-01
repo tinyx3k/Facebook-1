@@ -1,11 +1,5 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import requests, time, os, re, json, random
-from rich.panel import Panel
-from rich import print
-from concurrent.futures import ThreadPoolExecutor
-from rich.tree import Tree
-from rich.console import Console
 
 ###---[ Author ]---###
 Author = 'Ferly Shishigami X'
@@ -38,29 +32,6 @@ u = '\033[95m' # UNGU
 kk = '\033[33m' # KUNING -
 b = '\33[1;96m' # BIRU -
 p = '\x1b[0;34m' # BIRU +
-
-#""" WARNA UNTUK PRINT"""
-q='\x1b[0m'	 # WARNA MATI
-p = '\x1b[0;97m' # PUTIH
-m = '\x1b[0;91m' # MERAH
-i = '\x1b[0;92m' # HIJAU
-k = '\x1b[0;93m' # KUNING
-k = '\033[0;93m' # KUNING
-b = '\x1b[0;94m' # BIRU
-u = '\x1b[0;95m' # UNGU
-c = '\033[0;96m' # BIRU MUDA
-h = "\x1b[0;90m"     # Hitam
-j = "\x1b[38;5;208m" # Jingga
-a = "\x1b[38;5;248m" # Abu-Abu
-o='\033[38;2;255;127;0;1m' #ORANGE
-h2="\033[40m"
-b2="\033[44m"
-c2="\033[46m"
-i2="\033[42m"
-u2="\033[45m"
-m2="\033[41m"
-p2="\033[47m"
-k2="\033[43m"
 
 ###---[ IMPORT MODULE ]---###
 import bs4, re, time, requests, datetime, os, sys, random, platform
