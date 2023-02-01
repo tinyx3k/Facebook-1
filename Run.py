@@ -4,11 +4,11 @@
 ###---[ Author ]---###
 Author = 'Ferly Shishigami X'
 Github = 'github.com/FerlyXD'
-Facebook = 'フェリー シシガミ'
+Facebook = 'Afriliyan Ferly Shishigami X'
 Version = 'Next Blade V.2'
 
 Author   = 'Ferly Shishigami X'
-Facebook = 'フェリーシシガミ (https://m.facebook.com/profile.php?id=100056190665450)'
+Facebook = 'Afriliyan Ferly Shishigami X (https://m.facebook.com/profile.php?id=100013275378835)'
 Watsapp = '0857 9781 8026'
 
 
@@ -83,9 +83,9 @@ def logo(n):
 {N} |    \ |  _  || __  ||  |  |  {N}|   __||  _  ||     ||   __|| __  ||     ||     ||  |  |
 {U} |  |  ||     ||    -||    -|  {U}|   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
 {K} |____/ |__|__||__|__||__|__|  {K}|__|   |__|__||_____||_____||_____||_____||_____||__|__
-     {M}•{K}•{H}• {P}MULTI BRUTE FORCE FACEBOOK {H}•{K}•{M}•           |
-     {M}•{K}•{H}• {P}Author   : Ferly Shishigami {H}•{K}•{M}•          |
-     {M}•{K}•{H}• {P}Github   : github.com/Shishigami-X {H}•{K}•{M}•   |
+     {M}•{K}•{H}• {P}MULTI BRUTE FORCE FACEBOOK {H}•{K}•{M}•           
+     {M}•{K}•{H}• {P}Author   : Ferly Shishigami {H}•{K}•{M}•          
+     {M}•{K}•{H}• {P}Github   : github.com/Shishigami-X {H}•{K}•{M}•   
      {M}•{K}•{H}• {P}Facebook : Afriliyan Ferly Shishigami X {H}•{K}•{M}•""")
      
 def logo2():
