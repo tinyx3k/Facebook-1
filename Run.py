@@ -33,6 +33,32 @@ kk = '\033[33m' # KUNING -
 b = '\33[1;96m' # BIRU -
 p = '\x1b[0;34m' # BIRU +
 
+#"""WARNA RICH"""
+H = "#000000" # Hitam
+M = "#FF0000" # Merah
+I = "#00FF00" # Hijau
+K = "#FFFF00" # Kuning
+B = "#00C8FF" # Biru
+U = "#AF00FF" # Ungu
+P = "#FF00FF" # Pink
+C = "#00FFFF" # Biru Muda
+Q = "#FFFFFF" # Putih
+J = "#FF8F00" # Jingga
+A = "#AAAAAA" # Abu-Ab
+O = "#FFA500" # OREN
+HH = "[#000000]" # Hitam
+MM = "[#FF0000]" # Merah
+II = "[#00FF00]" # Hijau
+KK = "[#FFFF00]" # Kuning
+BB = "[#00C8FF]" # Biru
+UU = "[#AF00FF]" # Ungu
+PP = "[#FF00FF]" # Pink
+CC = "[#00FFFF]" # Biru Muda
+QQ = "[#FFFFFF]" # Putih
+JJ = "[#FF8F00]" # Jingga
+AA = "[#AAAAAA]" # Abu-Abu
+OO = "[#FFA500]" # OREN
+
 ###---[ IMPORT MODULE ]---###
 import bs4, re, time, requests, datetime, os, sys, random, platform
 from concurrent.futures import ThreadPoolExecutor as tred
@@ -77,7 +103,7 @@ def tahunng(fx):
 
 ###---[ANGGAP INI LOGO ]---###
 def logo(n):
-	return str("""
+	return str(f"""
 	{M} ____   _____  _____  _____    {M}_____  _____  _____  _____  _____  _____  _____  _____
 {U}|    \ |  _  || __  ||  |  |  {U}|   __||  _  ||     ||   __|| __  ||     ||     ||  |  |
 {K}|  |  ||     ||    -||    -|  {K}|   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
@@ -88,7 +114,7 @@ def logo(n):
      {M}•{K}•{H}• {P}Facebook : Afriliyan Ferly Shishigami X {H}•{K}•{M}•""")  
      
 def logo2():
-	return str("""
+	return str(f"""
          {M}  ____   _____  _____  _____   {M}  _____  _____  _____  _____  _____  _____  _____  _____
 {U} |    \ |  _  || __  ||  |  |  {U} |   __||  _  ||     ||   __|| __  ||     ||     ||  |  |
 {K} |  |  ||     ||    -||    -|  {K} |   __||     ||   --||   __|| __ -||  |  ||  |  ||    -|
