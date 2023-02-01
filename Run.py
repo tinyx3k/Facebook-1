@@ -273,7 +273,7 @@ def remove():
 	
 	
 	
-###---[ MENU UTAMS ]---###
+###---[ MENU UTAMA ]---###
 def menu(n,t,c):
 	clear_layar()
 	print(logo(n)+f'\n')
@@ -428,7 +428,8 @@ def crack_nomor():
 		sleep(0.0000003)
 	atur_atur()
 		
-
+		
+###---[ DUMP EMAIL ]---###
 def clon_email():
 	rc = random.choice
 	rr = random.randint
@@ -643,17 +644,17 @@ def atur_atur():
 		for x in dump:
 			id.append(x)
 	print(f"{P} ─────────────────────────────")
-	cp = input(f' [{hh}!{P}] VIEW OPTION CHECKPOINT : NO ')
+	cp = input(f' [{hh}!{P}] VIEW OPTION CHECKPOINT : N/Y ')
 	if cp in ['y','Y','ya','Ya','1','01','yy','YA','yA']:
 		cepeh.append('ya')
 	print(f"{P} ─────────────────────────────")
-	apk = input(f' [{hh}!{P}] VIEW APPLICATION : NO ')
+	apk = input(f' [{hh}!{P}] VIEW APPLICATION : N/Y ')
 	if apk in ['y','Ya','ya','1']:akunok.append('apk')
 	else:akunok.append('coki')
 	print(f"{P} ─────────────────────────────")
 	ch = input(f' [{hh}1{P}] MANUAL [{hh}2{P}] COMBINE [{hh}3{P}] DEFAULT : ')
 	if ch in ['1','01']:manual()
-	elif ch in ['2','2']:gabung()
+	elif ch in ['2','02']:gabung()
 	elif ch in ['3','03']:otomatis()
 	else:otomatis()
 	
