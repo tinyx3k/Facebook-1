@@ -1,3 +1,8 @@
+# JANGAN RECODE MULU LOL BELAJAR CODING NGAPA 
+# GANTENG DOANG GK BISA CODING OKWOWKOWK
+# Encrypt By Afriliyan Ferly Shishigami X
+# https://github.com/Shishigami-X
+
 #pip install pycryptodome
 import random ,base64,codecs,zlib;pyobfuscate=""
 
