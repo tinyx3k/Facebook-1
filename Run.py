@@ -1,6 +1,6 @@
 # JANGAN RECODE MULU LOL BELAJAR CODING NGAPA 
 # GANTENG DOANG GK BISA CODING OKWOWKOWK
-# Encrypt By Afriliyan Ferly Shishigami X
+# MINIMAL NGOMONG DULU KONTOL KALO MAU RECODE
 # https://github.com/Shishigami-X
 
 #!/usr/bin/python3
