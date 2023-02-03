@@ -115,6 +115,8 @@ def logo(n):
        {U}  |  |  ||     ||    -||    -|  {U}\_____   \\__  \ |  |/ // __ \_  __ \____ \   
        {K}  |____/ |__|__||__|__||__|__|  {K}/        \\/ __ \|    <\  ___/| | \\// ___ \   
                                          {H}/_________(______/|__|__\\_____>__|  (_______\  
+				
+     {M}•{K}•{H}• {P}Multi Brute Force Facebook By Shishigami-X{M}•{K}•{H}•
      {M}•{K}•{H}• {P}Author   : Ferly Shishigami {H}•{K}•{M}•          
      {M}•{K}•{H}• {P}Github   : github.com/Shishigami-X {H}•{K}•{M}•   
      {M}•{K}•{H}• {P}Facebook : Afriliyan Ferly Shishigami X {H}•{K}•{M}•""")
