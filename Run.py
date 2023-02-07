@@ -243,39 +243,6 @@ ua = random.choice(['Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4A) AppleWebKit/53
 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-E5260) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4438.149 Mobile Safari/537.36'
 
 
-Shishigami-X
-/
-MBF-Sakera
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-MBF-Sakera/Run.py
-@Shishigami-X
-Shishigami-X Create Run.py
- 1 contributor
-2122 lines (2069 sloc)  190 KB
-# JANGAN RECODE MULU LOL BELAJAR CODING NGAPA 
-# GANTENG DOANG GK BISA CODING OKWOWKOWK
-# MINIMAL NGOMONG DULU KONTOL KALO MAU RECODE
-# https://github.com/Shishigami-X
-
-###----------[ AUTHOR & CREATOR ]---------- ###
-# ------ [ Gausah Dioprek Ntar Error ] ------ #
-Author    = 'Afriliyan Ferly Shishigami X'
-Facebook  = 'Facebook.com/AfriliyanFerly.Shishigami.X'
-Instagram = 'Instagram.com/afriliyanferlly_shishigami'
-Whatsapp  = '085797818026'
-YouTube   = 'Youtube.com/channel/UCtFa4pgCS8qEf0PGZz_8dVw'
-Version   = '0.6'
-Afriliyan  = 100013275378835
-Postingan = 1607256293060201
 
 ###----------[ IMPORT LIBRARY ]---------- ###
 import requests,bs4,sys,os,random,time,re,json,uuid,subprocess,rich,shutil,webbrowser,base64
