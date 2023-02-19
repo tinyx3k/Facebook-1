@@ -5,3 +5,5 @@ futures
 mechanize
 pyfiglet
 pycryptodome
+colorama
+stdiomask
