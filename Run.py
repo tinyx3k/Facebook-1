@@ -134,26 +134,25 @@ def tahunng(fx):
 
 ###---[ANGGAP INI LOGO ]---###
 def logo(n):
-	return str(f"""
-       {M} _________       __                          
-       {N}/   _____/____  |  | __ ________________     
-       {U}\_____   \\__  \ |  |/ // __ \_  __ \____ \   
-       {K}/        \\/ __ \|    <\  ___/| | \\// ___ \   
-      {H}/_________(_____/|__|__\\_____>__|  (______\  
-				
-     {M}•{K}•{H}• {P}Multi Brute Force Facebook By Shishigami-X{M}•{K}•{H}•
-     {M}•{K}•{H}• {P}Author   : Ferly Shishigami {H}•{K}•{M}•          
-     {M}•{K}•{H}• {P}Github   : github.com/Shishigami-X {H}•{K}•{M}•   
-     {M}•{K}•{H}• {P}Facebook : Afriliyan Ferly Shishigami X {H}•{K}•{M}•""")
-     
+	return str(f"""   	
+   {J2{_____  ____________________         {J2}____  ___
+  {N2}/  _  \ \_   _____/   _____/         {J2}\   \/  /
+ {O2{/  /_\  \ |    __) \_____  \   ______  {J2}\     / 
+{K}/    |    \|     \  /        \ /_____/  {J2}/     \ 
+{B}\____|__  /\___  / /_______  /         {J2}/___/\  \
+        {M}\/     \/          \/                {J2}\_/
+     {M}•{K}•{H}• {P}Afriliyan Ferly Shishigami X{M}•{K}•{H}•""")
+
 def logo2():
 	return str(f"""
-       	{M} _________       __                          
-       {N}/   _____/____  |  | __ ________________     
-       {U}\_____   \\__  \ |  |/ // __ \_  __ \____ \   
-       {K}/        \\/ __ \|    <\  ___/| | \\// ___ \   
-      {H}/_________(_____/|__|__\\_____>__|  (______\  
-			
+       
+   {J2}_____  ____________________         ____  ___
+  {N2}/  _  \ \_   _____/   _____/         \   \/  /
+ {O2}/  /_\  \ |    __) \_____  \   ______  \     / 
+{K}/    |    \|     \  /        \ /_____/  /     \ 
+{B}\____|__  /\___  / /_______  /         /___/\  \
+        {M}\/     \/          \/                \_/
+		
 {M}>{K}>{H}> {P}CHECKING FOR LOGIN {H}>{K}>{M}>""")
 
 ###---[ TANGGAL ]---###
@@ -353,7 +352,7 @@ def get_data():
 def login():
 	clear_layar()
 	print(logo2())
-	cookie = input(f"\n [{hh}<{P}] Pastikan Menggunakan Cookie Akun Fake\n Cookie : ")
+	cookie = input(f"\n [{hh}<{P}] Jangan Gunakan Akun Pribadi\n Cookie : ")
 	url = "https://business.facebook.com/business_locations"
 	head = {"user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","content-type":"text/html; charset=utf-8"}
 	cok = {'cookie':cookie}
