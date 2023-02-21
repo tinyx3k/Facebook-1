@@ -146,12 +146,12 @@ def logo(n):
 def logo2():
 	return str(f"""
        
-   {J2}_____  ____________________         {J2}____  ___
-  {N2}/  _  \ \_   _____/   _____/         {J2{\   \/  /
- {O2}/  /_\  \ |    __) \_____  \   ______  {J2}\     / 
-{K}/    |    \|     \  /        \ /_____/  {J2}/     \ 
-{B}\____|__  /\___  / /_______  /         {J2}/___/\  \
-        {M}\/     \/          \/                {J2}\_/
+   {J2}_____  ____________________         ____  ___
+  {N2}/  _  \ \_   _____/   _____/         \   \/  /
+ {O2}/  /_\  \ |    __) \_____  \   ______  \     / 
+{K}/    |    \|     \  /        \ /_____/  /     \ 
+{B}\____|__  /\___  / /_______  /         /___/\  \
+        {M}\/     \/          \/                \_/
 		
 {M}>{K}>{H}> {P}CHECKING FOR LOGIN {H}>{K}>{M}>""")
 
@@ -388,13 +388,13 @@ def remove():
 def menu(n,t,c):
 	clear_layar()
 	print(logo(n)+f'\n')
-	print(f" {P}[{hh}01{P}] Brute Force Public    [{hh}07{P}] Brute Force Search")
-	print(f" [{hh}02{P}] Brute Dorce Random    [{hh}08{P}] Brute Force From-File")
-	print(f" [{hh}03{P}] Brute Force Followers    [{hh}09{P}] Check Ressult Account")
-	print(f" [{hh}04{P}] Brute Force Comment  [{hh}10{P}] Check Account Non-Active")
-	print(f" [{hh}05{P}] Brute Force Group     [{hh}11{P}] Check Option Account")
-	print(f" [{hh}06{P}] Brute Force Email        [{hh}12{P}] Logout/Ganti ({M}Cookie{P})")
-	ask = input(f' [{hh}>>{P}] Menu : ')
+	print(f" {P}[{hh}01{P}] CRACK PUBLIK     [{hh}07{P}] CRACK SEARCH")
+	print(f" [{hh}02{P}] CRACK MASSAL     [{hh}08{P}] CRACK FROM FILE")
+	print(f" [{hh}03{P}] CRACK FOLLOW     [{hh}09{P}] CHECK RESSULT ACCOUNT")
+	print(f" [{hh}04{P}] CRACK COMENT     [{hh}10{P}] CHECK ACCOUNT NON-ACTIVE")
+	print(f" [{hh}05{P}] CRACK GROUP      [{hh}11{P}] CHECK OPTION ACCOUNT")
+	print(f" [{hh}06{P}] CRACK EMAIL      [{hh}12{P}] LOGOUT ({M}COOKIE{P})")
+	ask = input(f' [{hh}>>{P}] CHOOSE : ')
 	print(' ─────────────────────────────')
 	if ask in ['1','01']:crack_publik(t,c)
 	elif ask in ['2','02']:crack_masal(t,c)
