@@ -16,18 +16,18 @@ Author   = 'Afriliyan Ferly Shishigami X'
 Facebook = 'Afriliyan Ferly Shishigami X (https://m.facebook.com/profile.php?id=100013275378835)'
 Watsapp = '0857 9781 8026'
 
-###----------[ RICH COLOR STYLE ]---------- ###
-Z2 = "[#000000]" # Hitam
-M2 = "[#FF0000]" # Merah
-H2 = "[#00FF00]" # Hijau
-K2 = "[#FFFF00]" # Kuning
-B2 = "[#00C8FF]" # Biru
-U2 = "[#AF00FF]" # Ungu
-N2 = "[#FF00FF]" # Pink
-O2 = "[#00FFFF]" # Biru Muda
-P2 = "[#FFFFFF]" # Putih
-J2 = "[#FF8F00]" # Jingga
-A2 = "[#AAAAAA]" # Abu-Abu
+###----------[ ANSII COLOR STYLE ]---------- ###
+Z = "\x1b[0;90m"     # Hitam
+M = "\x1b[38;5;196m" # Merah
+H = "\x1b[38;5;46m"  # Hijau
+K = "\x1b[38;5;226m" # Kuning
+B = "\x1b[38;5;44m"  # Biru
+U = "\x1b[0;95m"     # Ungu
+O = "\x1b[0;96m"     # Biru Muda
+P = "\x1b[38;5;231m" # Putih
+J = "\x1b[38;5;208m" # Jingga
+A = "\x1b[38;5;248m" # Abu-Abu
+
 #------------[ WARNA-COLOR ]--------------#
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -135,23 +135,23 @@ def tahunng(fx):
 ###---[ANGGAP INI LOGO ]---###
 def logo(n):
 	return str(f"""   	
-   {J2}_____  ____________________         {J2}____  ___
-  {N2}/  _  \ \_   _____/   _____/         {J2}\   \/  /
- {O2}/  /_\  \ |    __) \_____  \   ______  {J2}\     / 
-{K}/    |    \|     \  /        \ /_____/  {J2}/     \ 
-{B}\____|__  /\___  / /_______  /         {J2}/___/\  \
-        {M}\/     \/          \/                {J2}\_/
+   {J}_____  ____________________         {J}____  ___
+  {N}/  _  \ \_   _____/   _____/         {J}\   \/  /
+ {O}/  /_\  \ |    __) \_____  \   ______  {J}\     / 
+{K}/    |    \|     \  /        \ /_____/  {J}/     \ 
+{B}\____|__  /\___  / /_______  /         {J}/___/\  \
+        {M}\/     \/          \/                {J}\_/
      {M}•{K}•{H}• {P}Afriliyan Ferly Shishigami X{M}•{K}•{H}•""")
 
 def logo2():
 	return str(f"""
        
-   {J2}_____  ____________________         ____  ___
-  {N2}/  _  \ \_   _____/   _____/         \   \/  /
- {O2}/  /_\  \ |    __) \_____  \   ______  \     / 
-{K}/    |    \|     \  /        \ /_____/  /     \ 
-{B}\____|__  /\___  / /_______  /         /___/\  \
-        {M}\/     \/          \/                \_/		
+   {J}_____  ____________________         {J}____  ___
+  {N}/  _  \ \_   _____/   _____/         {J}\   \/  /
+ {O}/  /_\  \ |    __) \_____  \   ______  {J}\     / 
+{K}/    |    \|     \  /        \ /_____/  {J}/     \ 
+{B}\____|__  /\___  / /_______  /         {J}/___/\  \
+        {M}\/     \/          \/                {J}\_/		
 {M}>{K}>{H}> {P}CHECKING FOR LOGIN {H}>{K}>{M}>""")
 
 ###---[ TANGGAL ]---###
@@ -250,18 +250,6 @@ from datetime import datetime
 from rich import print as printer
 from rich.panel import Panel
 from urllib.parse import quote
-
-###----------[ ANSII COLOR STYLE ]---------- ###
-Z = "\x1b[0;90m"     # Hitam
-M = "\x1b[38;5;196m" # Merah
-H = "\x1b[38;5;46m"  # Hijau
-K = "\x1b[38;5;226m" # Kuning
-B = "\x1b[38;5;44m"  # Biru
-U = "\x1b[0;95m"     # Ungu
-O = "\x1b[0;96m"     # Biru Muda
-P = "\x1b[38;5;231m" # Putih
-J = "\x1b[38;5;208m" # Jingga
-A = "\x1b[38;5;248m" # Abu-Abu
 
 ###----------[ RICH COLOR STYLE ]---------- ###
 Z2 = "[#000000]" # Hitam
