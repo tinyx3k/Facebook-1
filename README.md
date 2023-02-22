@@ -10,8 +10,8 @@ Welcome
 ```
 pkg update && pkg upgrade -y
 pkg install python git -y
-git clone https://github.com/Shishigami-X/Dark-Sakera
-cd Dark-Sakera
+git clone https://github.com/Shishigami-X/SMBF
+cd SMBF
 git pull
 pip3 install -r requirements.txt
 ```
