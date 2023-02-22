@@ -142,7 +142,7 @@ def logo(n):
 {M}███████║██║ ╚═╝ ██║██████╔╝██║     
 {B}╚══════╝╚═╝     ╚═╝╚═════╝ ╚═╝     
                                    
-     {M}•{K}•{H}• {P}Shishigami X mULTI bRUTE fORCE{M}•{K}•{H}•""")
+     {M}•{K}•{H}• {P}Shishigami X Multi Brute Force{M}•{K}•{H}•""")
 
 def logo2():
 	return str(f"""
