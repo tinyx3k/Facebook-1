@@ -8,11 +8,11 @@ Welcome
 #### ★ Social Accounts ★
 <a href="https://www.facebook.com/100013275378835"><img src="https://raw.githubusercontent.com/Dumai-991/Dumai-991/main/Image/images.png" alt="alt text" width="75" height="75"></a>
 ```
-rm -rf $HOME/SMBF
+rm -rf $HOME/Deep-Facebook
 pkg update && pkg upgrade -y
 pkg install python git -y
-git clone https://github.com/Shishigami-X/SMBF
-cd SMBF
+git clone https://github.com/Shishigami-X/Deep-Facebook
+cd Deep-Facebook
 git pull
 pip3 install -r requirements.txt
 ```
