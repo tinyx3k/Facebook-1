@@ -12,7 +12,7 @@ termux-change-repo
 rm -rf $HOME/Facebook
 pkg update && pkg upgrade -y
 pkg install python git -y
-git clone https://github.com/Shishigami-X/Facebook
+git clone https://github.com/Denventa/Facebook
 cd Facebook
 git pull
 pip3 install -r requirements.txt
