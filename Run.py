@@ -5,11 +5,7 @@
 ###---[ Author ]---###
 Author = 'Afriliyan Ferly Shishigami X'
 Github = 'github.com/Denventa'
-Facebook = 'Denventa Afriliyan Ferly Khurayra Shishigami X'
-Version = 'Next Blade V.2'
-
-Author   = 'Denventa Afriliyan Ferly Khurayra Shishigami X'
-Facebook = 'Afriliyan Ferly Shishigami X (https://m.facebook.com/profile.php?id=100013275378835)'
+Facebook = 'Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY'
 Watsapp = '0857 9781 8026'
 
 ###----------[ ANSII COLOR STYLE ]---------- ###
